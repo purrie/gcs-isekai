@@ -1,0 +1,6435 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "e0zUrEApbV1zGtsDz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eaRGjCvKg2weKYejv"
+			},
+			"description": "Sleeping Bag",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 25,
+			"weight": "7 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "eWvF91bvs2U6aaXq3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e7cTFmc3ahIolV8FK"
+			},
+			"description": "Camp Stove, Small",
+			"reference": "B288",
+			"notes": "Uses 1/4 gallon of kerosene per 4 hrs",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 50,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e8pIBpyKcIfezLCgs",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eD4JnJ8xhmU23kuIh"
+			},
+			"description": "Kerosene, 1 Gallon",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 2,
+			"weight": "6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "ebuZnCfU5_wNTTvy0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "evj3npwswckC2rI31"
+			},
+			"description": "Cable, Steel, 1.5\", 10 yards",
+			"reference": "B288",
+			"notes": "Supports 3,700 lbs.",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 100,
+			"weight": "17 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "17 lb"
+			}
+		},
+		{
+			"id": "eDZUjQr0SW0W2CN3x",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eKZrky-FLd84tzH7U"
+			},
+			"description": "GPS Receiver",
+			"reference": "B288",
+			"notes": "Satellite-updated, lasts 24 hours; Grants Absolute Direction (Requires Signal)",
+			"tech_level": "8",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 200,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e5HlxTEoh4JNx8lpT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eIY-uaY0eISnxoTnU"
+			},
+			"description": "Bomb Disposal Suit",
+			"reference": "HT75",
+			"notes": "Flexible.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 10000,
+			"weight": "65 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"specialization": "not from front",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"specialization": "not from front",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"specialization": "not from front",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "not from front",
+					"amount": -15
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "not from front",
+					"amount": -15
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "65 lb"
+			}
+		},
+		{
+			"id": "e4qS5jlU2InQMxEIm",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "enMKV-HHAOwqM-2ce"
+			},
+			"description": "Water Purification Tablets",
+			"reference": "B288",
+			"notes": "Bottle of 50; Purifies 1 quart each",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 5,
+			"weight": "0.1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0.1 lb"
+			}
+		},
+		{
+			"id": "eR9lwZTfg9IAfvCS0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "egTue4rWsEEmcxKEU"
+			},
+			"description": "Ghillie Suit",
+			"reference": "HT77",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 500,
+			"weight": "12 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "e92uQoiPmvGlqnEd9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "efSET39nBaK0U1pnu"
+			},
+			"description": "Ghillie Suit (IR-suppressing)",
+			"reference": "HT77",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1000,
+			"weight": "12 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "e9MY-4UTYo37BK7ak",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eRkGPhEiAEfyD8QzX"
+			},
+			"description": "Infrared-Suppressing Poncho",
+			"reference": "HT77",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 500,
+			"weight": "6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "efcmx5l69BG2T-x2O",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ehJggIP5IOS1PMyWh"
+			},
+			"description": "IR Camouflage Net",
+			"reference": "HT77",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 800,
+			"weight": "100 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "100 lb"
+			}
+		},
+		{
+			"id": "erJzr9jN8FaDvLZvQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e0ryjmE2NUPbubRcj"
+			},
+			"description": "Early Rebreather",
+			"reference": "HT76",
+			"notes": "Lasts 1.5hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 2000,
+			"weight": "30 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "eqayTH73U7HohXJJa",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e6DksLHwGaEZLqLC8"
+			},
+			"description": "Rebreather",
+			"reference": "HT76",
+			"notes": "Lasts 4hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 3500,
+			"weight": "30 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3500,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "ezeQQAET59PwFXioY",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "enQep7Xfv1Qf93QFn"
+			},
+			"description": "Advanced Rebreather",
+			"reference": "HT76",
+			"notes": "Lasts 4rhs.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 7000,
+			"weight": "45 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 7000,
+				"extended_weight": "45 lb"
+			}
+		},
+		{
+			"id": "edQOOfNKxploX8-_A",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "edUUgtY9Y6T_rU9sb"
+			},
+			"description": "Wetsuit",
+			"reference": "HT75",
+			"notes": "Flexible.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 200,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eQjSCFq0aIHRUYok-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "ex8apvYN2COCkN2NS"
+			},
+			"description": "Sleeping Bag, Insulated",
+			"reference": "B288",
+			"notes": "+3 HT to resist freezing",
+			"tech_level": "7",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 100,
+			"weight": "15 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eaD6HJINBmGiX8Rxw",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eBfGbZZF6-nOUTnFN"
+			},
+			"description": "NBC Suit",
+			"reference": "HT75",
+			"notes": "Flexible.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 150,
+			"weight": "3.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "eteFjMtJx56Aoese0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e7CaEPMjB3Ma63F8m"
+			},
+			"description": "Cigarette Lighter",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 10,
+			"weight": "0.01 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.01 lb"
+			}
+		},
+		{
+			"id": "erpybuWvQqX62uJ0I",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eFmN-M8-PYD47gn9M"
+			},
+			"description": "Wristwatch",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 20,
+			"weight": "0.075 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.075 lb"
+			}
+		},
+		{
+			"id": "ELU4I8MYiNUow7kgr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "EAxwf31J1xN011yYR"
+			},
+			"description": "Thermos Bottle",
+			"reference": "B288",
+			"notes": "Keeps 1 pint hot [24 hours] or cold [72 hours]",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 10,
+			"weight": "2 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "1 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "EU4i5YPRaJJ0YNWsf",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "EmwTcZpNM3WUZspcx"
+			},
+			"description": "Suitcase, Hard",
+			"reference": "B288",
+			"notes": "DR4, with key lock",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 250,
+			"weight": "8 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "Ej4ZdzYpwh6h-Fo39",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "EQtsd2lBetSnfQoUv"
+			},
+			"description": "Canteen",
+			"reference": "B288",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 10,
+			"weight": "1 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "2 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eJy4y4EI5Iqg8B37r",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e-OzowreCnIY072R0"
+			},
+			"description": "Cable, Steel, 1.5\", 20 yards",
+			"reference": "B288",
+			"notes": "Supports 3,700 lbs.",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 200,
+			"weight": "34 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "34 lb"
+			}
+		},
+		{
+			"id": "efklAQL3eRWha4kvQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eo4DGoZ27cYXgTOdw"
+			},
+			"description": "Life Jacket",
+			"reference": "B288",
+			"notes": "Floats up to 350 lbs.",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 100,
+			"weight": "6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "e6XV2RpSbUPQsx7oc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eZo2RO2pAPj1o7vdc"
+			},
+			"description": "Grapnel",
+			"reference": "B288",
+			"notes": "Supports 300 lbs; throw to STx2 yards",
+			"tech_level": "5",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 20,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eY5Pia16tNdAbYP2M",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eM1vHDqStKF8XT9Zk"
+			},
+			"description": "Compass",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 50,
+			"weight": "0.144 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "starts_with",
+						"qualifier": "navigation"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.144 lb"
+			}
+		},
+		{
+			"id": "e3HJc1A74lFbQdOR9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eHOR_eMHmsfHD9CYA"
+			},
+			"description": "Parachute",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 1000,
+			"weight": "30 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "eq9Ifo_FeuhcUKg3O",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "ePzy2xQpq8lmOn7Hs"
+			},
+			"description": "Matches, Waterproof",
+			"reference": "B288",
+			"notes": "Box of 50",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 1.5,
+			"weight": "0.051 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1.5,
+				"extended_weight": "0.051 lb"
+			}
+		},
+		{
+			"id": "eucWZgFVXC3wJF1Uy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eXRmIV_DsOO1bevEv"
+			},
+			"description": "Flashlight, Heavy",
+			"reference": "B288",
+			"notes": "30' beam, lasts 5 hours",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 20,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eCLTLwIMXTFoJjE2m",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e77zZ7QYhkxvNUAlG"
+			},
+			"description": "Match, Single, Waterproof",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 0.3,
+			"weight": "0.001 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0.3,
+				"extended_weight": "0.001 lb"
+			}
+		},
+		{
+			"id": "epjDJ3eVyDjy9PP-k",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e1-Ri63fyyB9QChW2"
+			},
+			"description": "Scuba Gear",
+			"reference": "B288",
+			"notes": "Includes 2-hour underwater air tank",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 1500,
+			"weight": "32 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "32 lb"
+			}
+		},
+		{
+			"id": "egavVHvK2SvAIgFG5",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eiLUahRaD3Evkg-Wr"
+			},
+			"description": "Flashlight, Mini",
+			"reference": "B288",
+			"notes": "15' beam, lasts 1 hour",
+			"tech_level": "7",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 10,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eijNMdXbVCRGUOZ7S",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eSQJ6_sNcDCZA0amO"
+			},
+			"description": "Gasoline, 1 Gallon",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Camping and Survival Gear"
+			],
+			"value": 2,
+			"weight": "6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eARD4QuO4kX0clChQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eRf4lnUTTknGU1HAK"
+			},
+			"description": "Mini-Recorder",
+			"reference": "B288",
+			"notes": "Palm-sized, with 3-hour tape",
+			"tech_level": "7",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 200,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eItkXG7fjkV9-798B",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eC1LM4b2_K5qhgOfs"
+			},
+			"description": "Computer, Wearable",
+			"reference": "B288",
+			"notes": "Display glasses and wireless modem. 8 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 1000,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eFqdDbfPqkxJmVTT8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eyIiqW2jd5Ozibmo3"
+			},
+			"description": "Mini-Recorder-Tape",
+			"reference": "B288",
+			"notes": "3-hour tape",
+			"tech_level": "7",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 5,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eKh0fUvaGUkY2yiWd",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eReOCZMujr5hTRhK8"
+			},
+			"description": "Satellite Phone",
+			"reference": "B288",
+			"notes": "Global range, satellite relay. 1 hr.",
+			"tech_level": "8",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 3000,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3000,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "euNpAUCuHSvkQLs4k",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eQwYw3YMYdWxfoOrH"
+			},
+			"description": "Computer, Laptop",
+			"reference": "B288",
+			"notes": "Modem plugs into phone. 2 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 1500,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "ekSreZrz500G1CAY8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eHY1MD7lYqTzVKoY4"
+			},
+			"description": "Typewriter, Manual",
+			"reference": "B289",
+			"tech_level": "6",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 200,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eLsX4yRYeLvnQDVQU",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eCQX_NEhHao-HXw1l"
+			},
+			"description": "Cell Phone",
+			"reference": "B288",
+			"notes": "Only works in some areas; $20/month fee., 10 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 250,
+			"weight": "0.25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "eFNB7eL4QsIdrp4Iy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eka_DJ3e1-iDrDyvU"
+			},
+			"description": "Radio, Headset, secure",
+			"reference": "B288",
+			"notes": "With throat mike. 1-mile range. Secure, encrypted version. 12 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 5000,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5000,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eOVFfPSsfkAJXTYuE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eurkyCZI0mDoyhBc8"
+			},
+			"description": "Radio, Headset",
+			"reference": "B288",
+			"notes": "With throat mike. 1-mile range. 12 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 500,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eAQSc0e0GRgJQQ0NF",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e-r_HZHgOxqkIcNPr"
+			},
+			"description": "Mini-Recorder, Digital",
+			"reference": "B288",
+			"notes": "Palm-sized, 3 hrs. recording time",
+			"tech_level": "8",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eAI7HGb1DUkJ-nY6w",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eRf6NaAVVn_tr2GlF"
+			},
+			"description": "Radio, Hand",
+			"reference": "B288",
+			"notes": "Classic \"walkie-talkie.\" 2-mile range. 12 hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 100,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eY_AH7Cnb6Rv4MhUp",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e1Cfh4NqKYP-0-idr"
+			},
+			"description": "Batteries",
+			"reference": "B288",
+			"tech_level": "6",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 1,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "evFnFkg3Zy-mrA3Bp",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "enklaVM9wxc9bFkX_"
+			},
+			"description": "TV Set, Mini",
+			"reference": "B288",
+			"notes": "5'' x 5'' flat-screen. 4 hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 150,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eNm3KAWaDDUxIHfGw",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eOGQijdBBpaYkTeds"
+			},
+			"description": "Transistor Radio",
+			"reference": "B288",
+			"notes": "Receive-only; picks up radio stations. 8 hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 15,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eiAzmVN1e6EsS4Z3M",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eyROrm-JhRKeA6DOW"
+			},
+			"description": "Radio, Backpack",
+			"reference": "B288",
+			"notes": "VHF radio. 20-mile range. 12 hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Communications and Information Gear"
+			],
+			"value": 6000,
+			"weight": "15 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6000,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "exot8X5id36wE5VUc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eOvTfL6g2ME5YmpLr"
+			},
+			"description": "Advanced Disguise Kit",
+			"reference": "HT215",
+			"tech_level": "5",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 4000,
+			"weight": "250 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Disguise"
+					},
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "250 lb"
+			}
+		},
+		{
+			"id": "ESjyzwnX1xYKjLuKP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "E9HFlhPHY1c9Zypf7"
+			},
+			"description": "Smuggler's Steamer Trunk",
+			"reference": "HT215",
+			"notes": "+2 (quality) Smuggling. 5cf.",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 4000,
+			"weight": "40 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "400 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "40 lb"
+			}
+		},
+		{
+			"id": "EkZqOsjRlnBaHnlp6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "E_6w-32ZkCaUcqUM2"
+			},
+			"description": "Smuggler's Attaché Case",
+			"reference": "HT215",
+			"notes": "+2 (quality) Smuggling. 2cf.",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 400,
+			"weight": "2 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "20 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "E5AbLH-v9lSTjoC6y",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "Eivhz9o8cb3TS6_F-"
+			},
+			"description": "Smuggler's Travel Bag",
+			"reference": "HT215",
+			"notes": "+2 (quality) Smuggling. 5cf.",
+			"tech_level": "5",
+			"legality_class": "3",
+			"tags": [
+				"Deception and Intrusion"
+			],
+			"value": 1200,
+			"weight": "10 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "contained_weight_prereq",
+						"has": true,
+						"qualifier": {
+							"compare": "at_most",
+							"qualifier": "100 lb"
+						}
+					}
+				]
+			},
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eHjriOwloWR9JePjr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eEgiS5x_XtQTIksNM"
+			},
+			"description": "Football Helmet",
+			"reference": "HT70",
+			"notes": "DR+3 vs. cr.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 150,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"specialization": "non-crushing damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"specialization": "non-crushing damage type",
+					"amount": -3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "ejNWt5XPnosjVZKLb",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eUrrIzmoC49oiDM2U"
+			},
+			"description": "Flak Vest",
+			"reference": "HT66",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 500,
+			"weight": "20 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 7
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eedq-joOe58yUtblT",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "egDE_0881UEoBLJyC"
+			},
+			"description": "Heated Clothing",
+			"reference": "HT74",
+			"notes": "M/8hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 550,
+			"weight": "6 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 550,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eCjmDxWsQ2a3fpxlX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ePn7mabb-YEqZNmY1"
+			},
+			"description": "Gas Mask",
+			"reference": "HT72",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 250,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "euOHKayUGmjgklNgS",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ecEbN6saX_WVbr0vl"
+			},
+			"description": "Riot Shield",
+			"reference": "HT72",
+			"notes": "DR7 HP40",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 60,
+			"weight": "7.5 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Dodge, Parry \u0026 Block against attacks from the front or shield side",
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "7.5 lb"
+			}
+		},
+		{
+			"id": "eJIm8sJ7JSIMf05DL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "edym78yZ8-XrqlYkr"
+			},
+			"description": "Gas Mask",
+			"reference": "HT72",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"value": 100,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "epDoNh-0ZcCe3MUHA",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "erPV-gsZwxEWI7ESg"
+			},
+			"description": "Shin Guards",
+			"reference": "HT68",
+			"notes": "DR4 with 2/6 coverage, front only.",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e3qB1Vx4OLcUfTivR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e2_C5sfNUpbDsY1BY"
+			},
+			"description": "Sentry Armor",
+			"reference": "HT66",
+			"notes": "DR+14 to the front torso",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 300,
+			"weight": "20 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 14
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eENPSbbm_pwnlouT_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e6Pyujx4du5N-E00E"
+			},
+			"description": "Moccasins",
+			"reference": "HT68",
+			"notes": "Flexible.",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"value": 40,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e2zIKyF6Hf23ooLVR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e92r0-lBNKlpvRVsF"
+			},
+			"description": "Boots, High",
+			"reference": "HT68",
+			"notes": "Flexible. 3/6 coverage to legs.",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"value": 100,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eWAcCfcVufLEc36U2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eUDt_J1_n-h-oMgQk"
+			},
+			"description": "Boots, Steel-Toed",
+			"reference": "HT68",
+			"notes": "DR+4 to toes.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 100,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"specialization": "To toes",
+					"amount": -4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eeCiSOdZeKhQaOemC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e1bXpUVdIk2iMoFxB"
+			},
+			"description": "Cleats",
+			"reference": "HT68",
+			"notes": "Flexible. Count as boots for kicking damage.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 50,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eudq1TxJMQonM2OcW",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e2iZ7h6rKfDKEjwVa"
+			},
+			"description": "Light Body Armor (arms)",
+			"reference": "HT68",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 300,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "ePHNR3WTmSE55eO-a",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eG5MRitz4RICAp11B"
+			},
+			"description": "Light Body Armor (legs)",
+			"reference": "HT68",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 350,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 350,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "eaLoJ9Q608HKw_oks",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "er41rplKMP4YsxiCF"
+			},
+			"description": "Sneakers",
+			"reference": "HT68",
+			"notes": "Flexible.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 50,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eg5qNckEV4ETl9lfP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eZdfADTFNXHoQgtjv"
+			},
+			"description": "Aircrew Leg Armor",
+			"reference": "HT68",
+			"notes": "DR15 to front legs.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 200,
+			"weight": "18 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "18 lb"
+			}
+		},
+		{
+			"id": "e4GfJNZZCL_Z-VDPu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eGigxy7lPQZnEKIoM"
+			},
+			"description": "Boots, Blast",
+			"reference": "HT68",
+			"notes": "DR+13 to sole.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 350,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 15
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"specialization": "To sole",
+					"amount": -13
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 350,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eVUuxGq2N7iHOxMMS",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eeTknqPevZzKk2Nq4"
+			},
+			"description": "Boots, Jungle",
+			"reference": "HT68",
+			"notes": "DR+1 to sole.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 75,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"specialization": "To sole",
+					"amount": -1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 75,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e693ynHd1Ks64u6D-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eXtnrvIauk784ICie"
+			},
+			"description": "Riot Gear (arms)",
+			"reference": "HT68",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 100,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eDaQuxQwtvzweaqzs",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eAexFri9tz8VxCHMM"
+			},
+			"description": "Riot Gear (legs)",
+			"reference": "HT68",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 100,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "e-itcZOs6Yu_1TVq2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eF2lSmMvdsNAJZM55"
+			},
+			"description": "Ballistic Leggings",
+			"reference": "HT68",
+			"notes": "Flexible. DR+7 vs. pi, cut.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 400,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"specialization": "crushing",
+					"amount": -7
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "ea_qsK1BGXgKB56b-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e2pQM6T-Z98UzRL1J"
+			},
+			"description": "Boots, Firefighter",
+			"reference": "HT68",
+			"notes": "DR+3 to sole or toes.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 250,
+			"weight": "7 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"specialization": "To sole or toes",
+					"amount": -3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "eGl612C2ck9ljjS7v",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eSSF-ZF7gvfXYCrS4"
+			},
+			"description": "DAP",
+			"reference": "HT68",
+			"notes": "Flexible. DR+6 vs. pi, cut.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 200,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 8
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"specialization": "crushing",
+					"amount": -6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "e0NXGFOWO0kkcADqW",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eMhKpnLSfapTxQTML"
+			},
+			"description": "Sharp-Protective Armor (arms)",
+			"reference": "HT68",
+			"notes": "Flexible. DR+2 vs. imp, cut.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 100,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"specialization": "piercing",
+					"amount": -2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "egbGyUvHkfYL4Lz0B",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "esQRca9KutIRvecNd"
+			},
+			"description": "Sharp-Protective Armor (legs)",
+			"reference": "HT68",
+			"notes": "Flexible. DR+2 vs. imp, cut.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 100,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"specialization": "piercing",
+					"amount": -2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eO_sKPV1CnOALadps",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eBH04GwxyvA_eYVly"
+			},
+			"description": "Shoes, Climbing",
+			"reference": "HT68",
+			"notes": "Flexible.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 80,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e9HVwyVW8AGdOxSND",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eed2OjWY_4ApjEEoa"
+			},
+			"description": "Hockey Glove",
+			"reference": "HT69",
+			"notes": "DR3 to one hand only; that hand is Ham-Fisted 1.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 50,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eARnQZDDi7LUVk3H0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ejMh45EKxxWAPInBi"
+			},
+			"description": "Frisk Gloves",
+			"reference": "HT69",
+			"notes": "Flexible.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 50,
+			"weight": "0.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e8myQzxk5xi006ZJC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "exNz2OTcdbydeI3z0"
+			},
+			"description": "Sharp-Protective Gloves",
+			"reference": "HT69",
+			"notes": "Flexible. DR+2 vs. imp, cut.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 30,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"specialization": "piercing",
+					"amount": -2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ecaQnYuypkOl4KQee",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ewXUKfrOEGZ73-N_3"
+			},
+			"description": "Skullcap",
+			"reference": "HT70",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"value": 50,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e5qiyfjzpw7haF_sl",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eNqxdNivu-YRLAgqS"
+			},
+			"description": "Stock",
+			"reference": "HT70",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"value": 10,
+			"weight": "0.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e-yjKtX-_sWbGS0-T",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "exQtohZtfFr-IsorL"
+			},
+			"description": "Cavalry Helmet",
+			"reference": "HT70",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 100,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eZ29_CRwTmz_s9MQ1",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eDI13DnW_vPCwD5jq"
+			},
+			"description": "Early Firefighter's Helmet",
+			"reference": "HT70",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 20,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e5Xk0tuYIMc4O-0Cc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ea3huvup9bZhUPvwP"
+			},
+			"description": "Earmuffs",
+			"reference": "HT70",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 200,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ewb_Tv0Qx1r0PI-7I",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e36NvbNLee07Wv1HI"
+			},
+			"description": "Heavy Helmet",
+			"reference": "HT70",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 100,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "epGSFqXh7D2_3IGY9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eyfEJyONQ65dieHxN"
+			},
+			"description": "Leather Helmet",
+			"reference": "HT70",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 20,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "epi6vs3RYOJDAHRar",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eZn8KjJ6OB1rsImJO"
+			},
+			"description": "Light Helmet",
+			"reference": "HT70",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 40,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eo8P497HIqBoTQHCO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eVTdL_prZjoUOG-JZ"
+			},
+			"description": "Medium Helmet",
+			"reference": "HT70",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 60,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eigib1BzMdquzYdL2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e3_ytw4jCnRWbjiyW"
+			},
+			"description": "Earplugs",
+			"reference": "HT70",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e3Hwb2v5kmfnyi2Sa",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ex10ounPQlfKoPmGn"
+			},
+			"description": "Frag Helmet",
+			"reference": "HT70",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 125,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 5
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 125,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eVNNELxelbfcCsOUP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ecBDtyih2ac3MoSLm"
+			},
+			"description": "Frag Helmet + Visor",
+			"reference": "HT70",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 150,
+			"weight": "4.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "4.5 lb"
+			}
+		},
+		{
+			"id": "efeESGtpvfnHg88Iq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eilHDsuQ2qFmQdLR_"
+			},
+			"description": "Hard Hat",
+			"reference": "HT70",
+			"notes": "DR+2 vs. cr.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 50,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"specialization": "non-crushing damage type",
+					"amount": -2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eeDfaap7i495neQkK",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eW6uWeGh2U2qD6Q1z"
+			},
+			"description": "Modern Firefighter's Helmet",
+			"reference": "HT70",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 250,
+			"weight": "2.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 5
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "eXEOpnkTXhQ4pyYdV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "euauk-avR2war08VZ"
+			},
+			"description": "Modern Firefighter's Helmet + Visor",
+			"reference": "HT70",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 300,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eG9S2tXfzvFIZZQ3s",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eXtAzTG_3jbUNZob_"
+			},
+			"description": "Motorcycle Helmet",
+			"reference": "HT70",
+			"notes": "DR+3 vs. cr.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 200,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"specialization": "non-crushing damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"specialization": "non-crushing damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"specialization": "non-crushing damage type",
+					"amount": -3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e8zx7u-reGGwEf1KG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eEyqx2Zvgc3wLWJBN"
+			},
+			"description": "Motorcycle Helmet + Visor",
+			"reference": "HT70",
+			"notes": "DR+3 vs. cr.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 250,
+			"weight": "3.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"specialization": "non-crushing",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"specialization": "non-crushing",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"specialization": "non-crushing",
+					"amount": -3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "eeZvs8BkpgZTQW2_q",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eBAfxNxhuYqdS_g2z"
+			},
+			"description": "Ballistic Helmet",
+			"reference": "HT70",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 250,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 12
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "erTYmZGBOP69j2VVM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eg62qAhuaL5IMAgfV"
+			},
+			"description": "Ballistic Helmet + Visor",
+			"reference": "HT70",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 450,
+			"weight": "4.4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 10
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 10
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 450,
+				"extended_weight": "4.4 lb"
+			}
+		},
+		{
+			"id": "exF8nqqnNf83wqhZu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eOBBWlfTDJSLudGpP"
+			},
+			"description": "Electronic Earmuffs",
+			"reference": "HT70",
+			"notes": "XS/100hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 100,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eoI07Ni29pjBh2onY",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eAbgu9Mb48pbfdgTN"
+			},
+			"description": "Electronic Earplugs",
+			"reference": "HT70",
+			"notes": "T/400hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1500,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e1LYzBqrRuYtaB2QD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eH_Y8rAABYtMLdm5o"
+			},
+			"description": "Fireproof Suit",
+			"reference": "HT75",
+			"notes": "Flexible. DR+3 vs. burn.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 200,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"specialization": "non-burning damage type",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"specialization": "non-burning damage type",
+					"amount": -3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "e64b6SsQFXy8UkA4c",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ep8c8xUZ-3LpsQfT8"
+			},
+			"description": "Hockey Helmet",
+			"reference": "HT70",
+			"notes": "DR+1 vs. cr.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 50,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"specialization": "non-crushing damage type",
+					"amount": -1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ee28-kcUFNvEKPJgd",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eVAFLf6mx0woUA9DL"
+			},
+			"description": "Riot Helmet",
+			"reference": "HT70",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 200,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "ey_zohptGGF7lgLKt",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eLd_H5QvwxIpNqrdo"
+			},
+			"description": "Riot Helmet + Visor",
+			"reference": "HT70",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 250,
+			"weight": "3.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "e9zzvxFjD_3bJY4yg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eoI9CpvjIZBNhBnJk"
+			},
+			"description": "Boots, Arctic",
+			"reference": "HT68",
+			"notes": "Flexible.",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"value": 150,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eA4kjQ7ZjNvHGt3HL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eqjKrBrvaqYGsCNzN"
+			},
+			"description": "Boots",
+			"reference": "HT68",
+			"notes": "Flexible.",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"value": 80,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "ey1a_IfFPXTdRLwPr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "elgMYgYwf9GbJz7nE"
+			},
+			"description": "Trauma Plate",
+			"reference": "HT67",
+			"notes": "DR+25 to torso from one direction, front or back",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 500,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eJSrRztFNYGTi0u_M",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eUJtqrKFoT4fGbopY"
+			},
+			"description": "Small Trauma Plate",
+			"reference": "HT67",
+			"notes": "DR+25 to front vitals",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 250,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eLHDSkof23taxes-A",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eweiCM9g9fqU7rN5r"
+			},
+			"description": "Anti-Stab Plate",
+			"reference": "HT67",
+			"notes": "DR+4 to front vitals",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 150,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eIg9fk0-fEdfnyPlF",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eCn51CANA6RViToiQ"
+			},
+			"description": "Fragmentation Vest + Trauma Plates",
+			"reference": "HT66",
+			"notes": "Flexible. DR+3 vs. pi, cut.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Defenses"
+			],
+			"value": 700,
+			"weight": "22 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "crushing",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "crushing",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"specialization": "crushing",
+					"amount": -3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 700,
+				"extended_weight": "22 lb"
+			}
+		},
+		{
+			"id": "eedORi0aFI-DqUrHu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e7mh7H6WMAZnoyHeG"
+			},
+			"description": "Fragmentation Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR5 vs. pi, cut.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 350,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "crushing",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "crushing",
+					"amount": -3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"specialization": "crushing",
+					"amount": -3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 350,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "e1mfTA-msLsN9E2B_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ezE0AeP5hg3imhtmL"
+			},
+			"description": "Early Concealable Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR8 vs. pi, cut.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 200,
+			"weight": "2.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 8
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 8
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "crushing",
+					"amount": -6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "crushing",
+					"amount": -6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "e5FLzQTjOEox4XyHk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eLNFZfwsNZNwVqYdp"
+			},
+			"description": "Concealable Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR12 vs. pi, cut.",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1000,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "crushing",
+					"amount": -7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "crushing",
+					"amount": -7
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ezvzPR9yawAU6R4Ej",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "euhHtsUYOAwJEmC0e"
+			},
+			"description": "Assault Vest + Trauma Plates",
+			"reference": "HT66",
+			"notes": "Flexible. DR+7 vs. pi, cut.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1500,
+			"weight": "16 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 35
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 35
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"specialization": "crushing",
+					"amount": -7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "crushing",
+					"amount": -7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "crushing",
+					"amount": -7
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "16 lb"
+			}
+		},
+		{
+			"id": "eXw-VD10Qw8Fn3YnN",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e-f0q5WyWJNzwDQVA"
+			},
+			"description": "Assault Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR12 vs. pi, cut.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Defenses"
+			],
+			"value": 900,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"specialization": "crushing",
+					"amount": -7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "crushing",
+					"amount": -7
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "crushing",
+					"amount": -7
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "eyYLb-MAuVcCPnI82",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "emlYaOHAFW3C0nTK_"
+			},
+			"description": "Anti-Stab Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR5 to front torso.",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 300,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ewIS4bMbUiwkE7iD7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "enXD0asgTxQ5JhdPs"
+			},
+			"description": "Advanced Body Armor",
+			"reference": "HT66",
+			"notes": "DR-30 vs. cr.",
+			"tech_level": "8",
+			"legality_class": "2",
+			"tags": [
+				"Defenses"
+			],
+			"value": 4600,
+			"weight": "17 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 35
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 35
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "crushing",
+					"amount": -5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "crushing",
+					"amount": -5
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4600,
+				"extended_weight": "17 lb"
+			}
+		},
+		{
+			"id": "e9qPkKborEb3Xm7_A",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "evvyba1z85wy3GCyY"
+			},
+			"description": "Shoulder Pads",
+			"reference": "HT66",
+			"notes": "DR3 vs. cr. To slam: +1 damage, DR3.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 50,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "edscJVZzZysZ9sCPc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eldafz1idKUmI1b0D"
+			},
+			"description": "Improved Fragmentation Vest + Trauma Plates",
+			"reference": "HT66",
+			"notes": "Flexible. DR+2 vs. pi, cut.",
+			"tech_level": "7",
+			"legality_class": "2",
+			"tags": [
+				"Defenses"
+			],
+			"value": 4000,
+			"weight": "23 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 22
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 22
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "crushing",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "crushing",
+					"amount": -2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "23 lb"
+			}
+		},
+		{
+			"id": "eZvhhdBMAZ4Qq3nkg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eJ5jiThmHa2rUtB2U"
+			},
+			"description": "Improved Fragmentation Vest",
+			"reference": "HT66",
+			"notes": "Flexible. DR4. vs pi, cut.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 400,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "crushing",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "crushing",
+					"amount": -2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "eQUMTzUa_FXnjwoPO",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e4ZzadVXtuyXx4Tsh"
+			},
+			"description": "Fragmentation Vest",
+			"reference": "HT66",
+			"notes": "DR8 to the front vitals",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 200,
+			"weight": "13.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "frontal",
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "13.5 lb"
+			}
+		},
+		{
+			"id": "eq1-azv_QgL68EkxK",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "epFP5iWNyAUHGmDbN"
+			},
+			"description": "Biohazard Suit",
+			"reference": "HT75",
+			"notes": "Flexible.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 500,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "egZ4q_L2MeTqqTWQW",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ejUlH2sJroGtQLZZI"
+			},
+			"description": "Aircrew Armor",
+			"reference": "HT66",
+			"notes": "Flexible.",
+			"tech_level": "7",
+			"legality_class": "3",
+			"tags": [
+				"Defenses"
+			],
+			"value": 600,
+			"weight": "15 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 20
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 20
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eqTD-1aKKX11QUA0N",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eAAf-Lf5ouRJGki92"
+			},
+			"description": "Silk Vest + Steel Plate",
+			"reference": "HT66",
+			"notes": "DR4 vs. pi, cut; DR+5 to the front torso",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 800,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "crushing",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "crushing",
+					"amount": -2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "erkZh1aRnQw1rI-9u",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "exdgrv4Xhtjnj4e2W"
+			},
+			"description": "Silk Vest",
+			"reference": "HT66",
+			"notes": "DR4 vs. pi, cut",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 800,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"specialization": "crushing",
+					"amount": -2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"specialization": "crushing",
+					"amount": -2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 800,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "emGN9NFCZm9pQQHXJ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eXDP8VLhz6Ea1Em0Y"
+			},
+			"description": "Chaps",
+			"reference": "HT68",
+			"notes": "Flexible.",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"value": 40,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e30sZ2oJ27p_H0OBQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "edFUq2SgQzpCvIM-W"
+			},
+			"description": "Light Body Armor (torso)",
+			"reference": "HT66",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1000,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 5
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 5
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "e6iojC9-ld59N8Or7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eBvEPUbtUGpb6oyob"
+			},
+			"description": "Composite Body Armor",
+			"reference": "HT66",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 150,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 4
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "euFPEogALklss1_87",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "elIESG925LbAr7DUC"
+			},
+			"description": "Bulletproof Vest",
+			"reference": "HT66",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 750,
+			"weight": "8 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 6
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 750,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "eMBiMLwm5nX1ygVlr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "exd5_GoPICVpqqxSC"
+			},
+			"description": "Steel Vest",
+			"reference": "HT66",
+			"notes": "DR+5 to the front torso",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"value": 150,
+			"weight": "7 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "eGvhdcw1HYyKxPC1P",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e9r_LWQ5L_8bgGChg"
+			},
+			"description": "Goggles",
+			"reference": "HT71",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 20,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eKSPYXcDd69MaVGR_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eso53GAROC90UPwDF"
+			},
+			"description": "Wicking Undergarment",
+			"reference": "HT64",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 30,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eTGHsrYfR6XnMjLds",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eCbwgkH_wAK6OOU7N"
+			},
+			"description": "Ballistic Sunglasses",
+			"reference": "HT71",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 35,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 35,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eBqLtxrdwlt_bpIBy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ev-bQqQ3o6v_G5ea_"
+			},
+			"description": "Anti-Laser Goggles",
+			"reference": "HT71",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eaRyomm_HHTe6TvjW",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eGc5wXLXG9-8YXtPc"
+			},
+			"description": "Kneepads",
+			"reference": "HT71",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 20,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eCi501Vf9JAzK-53k",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ex3XerqPgLDsuQzK0"
+			},
+			"description": "Elbow Pads",
+			"reference": "HT71",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 20,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eq-WIddFAeYRnEf3Y",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ezjFIOVVS2_GrNkht"
+			},
+			"description": "Tactical Goggles",
+			"reference": "HT71",
+			"tech_level": "8",
+			"tags": [
+				"Defenses"
+			],
+			"value": 100,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "emxVykhnVfkwqWB3g",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eAnvlG_MSzpLRPt0_"
+			},
+			"description": "Mouthguard",
+			"reference": "HT71",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 20,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eu9mTf2nH_SQntD_B",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e6oaNsY8Kbrqkz9k1"
+			},
+			"description": "Sunglasses",
+			"reference": "HT71",
+			"tech_level": "5",
+			"tags": [
+				"Defenses"
+			],
+			"value": 50,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eerJbHVijFWgKJi8w",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e9B_KHqfY6la_Uvt-"
+			},
+			"description": "Dry Suit",
+			"reference": "HT75",
+			"notes": "Flexible.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 1000,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"neck"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"vitals"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"leg"
+					],
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eAkkKs2FFWjRDtICY",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e_CmXW4jtTwe9I0Tz"
+			},
+			"description": "Space Suit",
+			"reference": "HT75",
+			"notes": "Full suit DR2 vs. burn, cor",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 2000000,
+			"weight": "80 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000000,
+				"extended_weight": "80 lb"
+			}
+		},
+		{
+			"id": "eDzskVEif6uH_9hZh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eBkw1WsqBICkohCaZ"
+			},
+			"description": "Bulletproof Shield",
+			"reference": "HT72",
+			"notes": "DR10 HP80",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 300,
+			"weight": "30 lb",
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Dodge, Parry \u0026 Block against attacks from the front or shield side",
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 300,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "ezoBSYbvecjuMhJ9G",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ePT9hIeXE4Ou3nkYK"
+			},
+			"description": "Space Suit, EVA",
+			"reference": "HT75",
+			"notes": "Full suit DR2 vs. burn, cor",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 2000000,
+			"weight": "180 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000000,
+				"extended_weight": "180 lb"
+			}
+		},
+		{
+			"id": "eTlP8EFICv-B4DcXQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eyHw-igqkpawe_f8y"
+			},
+			"description": "Space Suit + Helmet",
+			"reference": "HT75",
+			"notes": "Full suit DR2 vs. burn, cor",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 2005000,
+			"weight": "85 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2005000,
+				"extended_weight": "85 lb"
+			}
+		},
+		{
+			"id": "eUEc_YPVm7Qo9S3P4",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eU2a0VQg9xcyuqsQM"
+			},
+			"description": "Small Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 22min.",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 200,
+			"weight": "15 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "ew4hrUdMcyRlyaV1o",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eLErnSwggH9KF0wsl"
+			},
+			"description": "Large Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 45mins.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 600,
+			"weight": "35 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "35 lb"
+			}
+		},
+		{
+			"id": "emFtJ5rkGVii_5BS7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "etRmQIwyJ414WdwBp"
+			},
+			"description": "Medium Air Tank",
+			"reference": "HT74",
+			"notes": "Lasts 22mins.",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 400,
+			"weight": "25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "e6dFHqWGmsySlOjBP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eys98KpuLnzAEdsc5"
+			},
+			"description": "SCBA mask",
+			"reference": "HT73",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 200,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "erwfD4N4SjNcZ2S2Y",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "ek2aJjt-qVHZSSI3w"
+			},
+			"description": "Scuba Mask",
+			"reference": "HT73",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 500,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 2
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ePB5IvvlIJR8E9Awj",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "e1dTCRFDGgEe6_nTb"
+			},
+			"description": "Camouflage Net",
+			"reference": "HT77",
+			"tech_level": "6",
+			"tags": [
+				"Defenses"
+			],
+			"value": 20,
+			"weight": "8 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "8 lb"
+			}
+		},
+		{
+			"id": "emmcMf_joPS9EL8gK",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "High Tech/High Tech Equipment.eqp",
+				"id": "eJJkoWhpSajy5vpU3"
+			},
+			"description": "Space Suit, EVA + Helmet",
+			"reference": "HT75",
+			"notes": "Full suit DR2 vs. burn, cor",
+			"tech_level": "7",
+			"tags": [
+				"Defenses"
+			],
+			"value": 2025000,
+			"weight": "190 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye"
+					],
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"face"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2025000,
+				"extended_weight": "190 lb"
+			}
+		},
+		{
+			"id": "eBU4Ayj3Xg1sNRAcR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eJIa_qfSzGcQ3wkPP"
+			},
+			"description": "Reinforced Boots",
+			"reference": "B284",
+			"tech_level": "7",
+			"tags": [
+				"Footwear"
+			],
+			"value": 75,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 2
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Kick"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 75,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eJupa5MUdHpNpcEJG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eZjQAOgtcNsVhVqsk"
+			},
+			"description": "Ballistic Helmet",
+			"reference": "B285",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Headgear"
+			],
+			"value": 250,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 12
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eiFYsK2nB1vaeGOEe",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eON7W6HNz-BnZ1xUu"
+			},
+			"description": "Ballistic Helmet Visor",
+			"reference": "B285",
+			"tech_level": "8",
+			"legality_class": "3",
+			"tags": [
+				"Headgear"
+			],
+			"value": 100,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 10
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eihd57kX9eDEX-rsF",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "ecKAEc-H-YwH4ZThd"
+			},
+			"description": "Steel Pot",
+			"reference": "B285",
+			"tech_level": "6",
+			"tags": [
+				"Headgear"
+			],
+			"value": 60,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 4
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 60,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eoMwXXew4wjhmnjXj",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "emLpKDf7E3sN-_gDA"
+			},
+			"description": "Frag Helmet",
+			"reference": "B285",
+			"tech_level": "7",
+			"tags": [
+				"Headgear"
+			],
+			"value": 125,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 5
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 125,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "es4WA8D5318VqkuZB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eUEHZeex58-t7vqKa"
+			},
+			"description": "Frag Helmet Visor",
+			"reference": "B285",
+			"tech_level": "7",
+			"tags": [
+				"Headgear"
+			],
+			"value": 25,
+			"weight": "1.5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "eZPY0b_OtkVemYSPf",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eBSrjkzutk3ssiwkn"
+			},
+			"description": "Gas Mask",
+			"reference": "B285",
+			"tech_level": "6",
+			"tags": [
+				"Headgear"
+			],
+			"value": 100,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eQWgZ6yv7lu_0fzuL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e1XW9GG-IvYkhXu_-"
+			},
+			"description": "Homing Beacon",
+			"reference": "B289",
+			"notes": "Scanner tracks at 1-mile range. 12 hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Law-Enforcement",
+				"Spy Gear",
+				"Thief"
+			],
+			"value": 40,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eOR0gk_qzYnERc_0-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eYGYxQyfo2SL3awJc"
+			},
+			"description": "Bug Stomper",
+			"reference": "B289",
+			"notes": "Jams bugs in 10-yard radius. 8 hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Law-Enforcement",
+				"Spy Gear",
+				"Thief"
+			],
+			"value": 1200,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eHQDnWfW7NJwmFCRS",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eKAhQztkLFd8ZM4f8"
+			},
+			"description": "Shotgun Mike",
+			"reference": "B289",
+			"notes": "Gives (TL-5) levels of Parabolic Hearing.",
+			"tech_level": "6",
+			"tags": [
+				"Law-Enforcement",
+				"Spy Gear",
+				"Thief"
+			],
+			"value": 250,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eUYB3X6AI065dLdGI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eETOcgd6amc__74vJ"
+			},
+			"description": "Electronic \"Lockpicks\"",
+			"reference": "B289",
+			"notes": "+2 to pick electronic locks",
+			"tech_level": "7",
+			"tags": [
+				"Law-Enforcement",
+				"Spy Gear",
+				"Thief"
+			],
+			"value": 1500,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eHS57VA0Q5cR6BnKa",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eiFZSDgHIOenxdNEO"
+			},
+			"description": "Bug, Audio",
+			"reference": "B289",
+			"notes": "-7 to spot, 1/4-mile range, transmits for 1 week.",
+			"tech_level": "7",
+			"tags": [
+				"Law-Enforcement",
+				"Spy Gear",
+				"Thief"
+			],
+			"value": 200,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eiiE2lIm58dsuormk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eR92vNL1Su3Uofy99"
+			},
+			"description": "Handcuffs",
+			"reference": "B289",
+			"tech_level": "5",
+			"tags": [
+				"Law-Enforcement",
+				"Spy Gear",
+				"Thief"
+			],
+			"value": 40,
+			"weight": "0.5 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "Escape"
+					},
+					"amount": -5
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 40,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ee2IXEMjmgUgqoB_R",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eES-b-ipuZmJ3CkyP"
+			},
+			"description": "Antitoxin Kit",
+			"reference": "B289",
+			"notes": "Antidote for specific poison. 10 uses",
+			"tech_level": "6",
+			"tags": [
+				"Medical Gear"
+			],
+			"value": 25,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "eRwOpUPz1gkngucXB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eW4bxdltA1HsDcae9"
+			},
+			"description": "Crash Kit/TL6+",
+			"reference": "B289",
+			"notes": "A complete kit for treating serous injuries. Includes sterile bandages, sutures, and drugs appropriate for the TL. Includes IV drip, needle, and plasma. Counts as improvised gear (-5) for Surgery",
+			"tech_level": "6+",
+			"tags": [
+				"Medical Gear"
+			],
+			"value": 200,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "skill_bonus",
+					"selection_type": "skills_with_name",
+					"name": {
+						"compare": "is",
+						"qualifier": "First Aid"
+					},
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eMMa97VXQRA50W2zr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e4h9Lm5aCqBNjRJ45"
+			},
+			"description": "Antibiotic",
+			"reference": "B289",
+			"notes": "Prevents or cures (in 1d days) infections.",
+			"tech_level": "6",
+			"tags": [
+				"Medical Gear"
+			],
+			"value": 20,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eGpFTXtmIfnFAsN6E",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eNFZu-0Rc-S6OM3xz"
+			},
+			"description": "Cattle Prod",
+			"reference": "B273",
+			"tech_level": "7",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 50,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "wWbGejyUhbF-QxyfZ",
+					"damage": {
+						"type": "burn",
+						"base": "1d-3"
+					},
+					"strength": "3",
+					"usage": "Thrust",
+					"reach": "1",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword"
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Jitte/Sai",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Knife",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Tonfa",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "1d-3 burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eSAwMxB3Drjd2Vfqz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e16UVbX3Aif--_HWf"
+			},
+			"description": "Chainsaw",
+			"reference": "B274",
+			"tech_level": "6",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 150,
+			"weight": "13 lb",
+			"weapons": [
+				{
+					"id": "wf8HRCTQkENjZ5r2P",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1d"
+					},
+					"strength": "10‡",
+					"reach": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Axe/Mace"
+						},
+						{
+							"type": "skill",
+							"name": "Axe/Mace",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Polearm",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Flail",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "sw+1d cut"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "13 lb"
+			}
+		},
+		{
+			"id": "eukKWXZoxkVnkTmOa",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e3rFVpM3-zQrtitAo"
+			},
+			"description": "Mini-Camera, Digital",
+			"reference": "B289",
+			"notes": "Stores pictures on optical disk.",
+			"tech_level": "8",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"value": 500,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ecenbZ48-CniQ87F8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e_bHydb3KTOnC2Gn2"
+			},
+			"description": "Metal Detector Wand",
+			"reference": "B289",
+			"notes": "+3 to find metal items. 8 hrs.",
+			"tech_level": "7",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"value": 50,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e4ZEAVzK0RP77mWke",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e1Yy1_iAv_75Ud3kS"
+			},
+			"description": "Camera-Film",
+			"reference": "B289",
+			"notes": "Extra film with 32 shots",
+			"tech_level": "6",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"value": 10,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eHGoVpqM6XUS5xNBW",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eQQTnMUoLtKKZcSby"
+			},
+			"description": "Camera, 35mm",
+			"reference": "B289",
+			"notes": "Basic equipment for Photography skill. Extra film is 32 shots ($10, neg.).",
+			"tech_level": "6",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"value": 50,
+			"weight": "3 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eEseEQtrxfto9duJN",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e3rFjTSDK30-6O2Zi"
+			},
+			"description": "Binoculars",
+			"reference": "B289",
+			"notes": "Gives (TL-4) levels of Telescopic Vision.",
+			"tech_level": "6",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"value": 400,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eYd8nlVWvekdQEtzk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e1gGmfryNgwUT7xTb"
+			},
+			"description": "Camcorder",
+			"reference": "B289",
+			"notes": "Has 10x zoom. Gives Night Vision 5. 7 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"value": 1000,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eo7XptIyl3LAzSZxr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "ek2CTXpTDjJDErAjt"
+			},
+			"description": "Night Vision Goggles",
+			"reference": "B289",
+			"notes": "Give Night Vision 9. 8 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"value": 600,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e8pZc62S0ItlQG43c",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e_IoK6Ph6dY_5xAG8"
+			},
+			"description": "Spy Camera",
+			"reference": "B289",
+			"notes": "Holds 36 exposures, uses microfilm",
+			"tech_level": "6",
+			"tags": [
+				"Optics and Sensors"
+			],
+			"value": 500,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eLbNIiyMLVbB6IotQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "ecPviqr-tQgLou_E4"
+			},
+			"description": "Suitcase Lab",
+			"reference": "B289",
+			"notes": "Basic equipment for a specific scientific skill (e.g., Chemistry or Forensics).",
+			"tech_level": "5",
+			"tags": [
+				"Tools"
+			],
+			"value": 3000,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "ekhMUMEapNBpBAYHP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eAS6l4LPuNw3m9pTP"
+			},
+			"description": "Cutting Torch Gas Bottle",
+			"reference": "B289",
+			"notes": "Extra Gas Bottle",
+			"tech_level": "6",
+			"tags": [
+				"Tools"
+			],
+			"value": 50,
+			"weight": "15 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eQFZitL6OI-4Qj90Y",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "ebU0R3MDBMDwdXCHa"
+			},
+			"description": "Portable Tool Kit, Explosives",
+			"reference": "B289",
+			"tech_level": "5",
+			"tags": [
+				"Tools"
+			],
+			"value": 600,
+			"weight": "20 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "epZ0SV9ZZ-aRTdf0i",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eJfXfUiz81dHWvvIJ"
+			},
+			"description": "Portable Tool Kit, Machinist",
+			"reference": "B289",
+			"tech_level": "5",
+			"tags": [
+				"Tools"
+			],
+			"value": 600,
+			"weight": "20 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eg2YlX6sjCmFgc70B",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eB2_4s6wdXLJ_WTZD"
+			},
+			"description": "Portable Tool Kit, Electrician",
+			"reference": "B289",
+			"tech_level": "6",
+			"tags": [
+				"Tools"
+			],
+			"value": 600,
+			"weight": "20 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eZ4VAnN_l3wbA0oj5",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "edkk4PnMJGzIY4dH6"
+			},
+			"description": "Cutting Torch",
+			"reference": "B289",
+			"notes": "1d+3(2) burn per second. Each gas bottle gives 30 seconds of cutting. Extra gas bottles are $50, 15 lbs. per bottle.",
+			"tech_level": "6",
+			"tags": [
+				"Tools"
+			],
+			"value": 500,
+			"weight": "30 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "eipkv6IyzVkbhXlcI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e0Bv0eh_s1gcehQ6c"
+			},
+			"description": "Portable Tool Kit, Electronics Repair",
+			"reference": "B289",
+			"tech_level": "6",
+			"tags": [
+				"Tools"
+			],
+			"value": 1200,
+			"weight": "10 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "ed62sEjexaoGpEHlV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eb7F1OoH51_rvWGAe"
+			},
+			"description": "Portable Tool Kit, Mechanic",
+			"reference": "B289",
+			"tech_level": "5",
+			"tags": [
+				"Tools"
+			],
+			"value": 600,
+			"weight": "20 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "esby5R3lhPDPS9gCj",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e7N0Dku_fOi6Du43-"
+			},
+			"description": "Laser Sight",
+			"reference": "B289",
+			"notes": "+1 to skill; see Laser Sights (B412). 6 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"value": 100,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "EBEbQQjOdIExgyJgQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "E4oQluqzxd4la6m57"
+			},
+			"description": "Holster, Shoulder",
+			"reference": "B289",
+			"notes": "Allows use of Holdout, but gives -1 to Fast-Draw.",
+			"tech_level": "5",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"value": 50,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "ekh03ke_r1icknIi-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eURyhL2Caa0sU4PSS"
+			},
+			"description": "Scope, 4x, Thermal Imaging",
+			"reference": "B289",
+			"notes": "+2 to Acc for aimed shots only. Gives the user Infravision. 2 hrs.",
+			"tech_level": "8",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"value": 8000,
+			"weight": "4 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 8000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eaJCml5QQWujJNEys",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eGTrEgJRxWimo0CEd"
+			},
+			"description": "Silencer, Pistol or SMG",
+			"reference": "B289",
+			"notes": "Reduces damage by -1 per die; see Silencers (B412)",
+			"tech_level": "6",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"value": 400,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e_OaRslASv7l_cds4",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e9twf7mhTaBNGu3rQ"
+			},
+			"description": "Ear Muffs",
+			"reference": "B289",
+			"notes": "Block loud noises (e.g. gunshots). Give Protected Hearing.",
+			"tech_level": "6",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"value": 200,
+			"weight": "1 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "EeOeMmB9wz9foxlIv",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "EIJwAsTB3ogNV0BXI"
+			},
+			"description": "Holster, Belt",
+			"reference": "B289",
+			"notes": "Fits most pistols",
+			"tech_level": "5",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"value": 25,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "EZLnNREyiqppL69yI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "Emfgs9dOamGA224RK"
+			},
+			"description": "Web Gear",
+			"reference": "B289",
+			"notes": "Belt and suspenders with puches and rings for gear",
+			"tech_level": "6",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"value": 50,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e-jqlyh72eRRN5hHy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "ebK9nHuujB-2BwkuQ"
+			},
+			"description": "Scope, 4x",
+			"reference": "B289",
+			"notes": "+2 to Acc for aimed shots only.",
+			"tech_level": "6",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"value": 150,
+			"weight": "1.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "1.5 lb"
+			}
+		},
+		{
+			"id": "EZK4gZxeccddC9P6D",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "EGQ2uP3rlucXSVNOh"
+			},
+			"description": "Lanyard, Woven Steel",
+			"reference": "B289",
+			"notes": "Lets you retrieve a dropped weapon on a DX roll. Each attempt requires a Ready maneuver. Can be cut: -6 to hit, DR 6, HP 4.",
+			"tech_level": "6",
+			"tags": [
+				"Weapon and Combat Accessories"
+			],
+			"value": 15,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 15,
+				"extended_weight": "0 lb"
+			}
+		}
+	]
+}

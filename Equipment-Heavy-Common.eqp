@@ -1,0 +1,2214 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eMm3cBpoJu7eZ-ohP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "esmQLx8SSD1SKltQ1"
+			},
+			"description": "Trebuchet, Small",
+			"reference": "LT81",
+			"notes": "Minimum range is 25% of maximum range; requires 25 crew; rectangular-based weapon; see table introduction for effects.",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 75000,
+			"weight": "17,500 lb",
+			"weapons": [
+				{
+					"id": "WRV6AwOMJVDWq46Gq",
+					"damage": {
+						"type": "cr",
+						"base": "13d+2"
+					},
+					"strength": "330M†",
+					"usage": "Fire Stone",
+					"accuracy": "1",
+					"range": "265/330",
+					"rate_of_fire": "1",
+					"shots": "1(300)",
+					"bulk": "-20/-25",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Catapult"
+						}
+					],
+					"calc": {
+						"damage": "13d+2 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 75000,
+				"extended_weight": "17,500 lb"
+			}
+		},
+		{
+			"id": "ejg9F0e2wD6NlT_3d",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eE4yf3W58v7gSKaus"
+			},
+			"description": "Trebuchet, Large",
+			"reference": "LT81",
+			"notes": "Minimum range is 25% of maximum range; requires 30 crew; rectangular-based weapon; see table introduction for effects.",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 240000,
+			"weight": "56,000 lb",
+			"weapons": [
+				{
+					"id": "WvLx3HuMoeOQSwIXP",
+					"damage": {
+						"type": "cr",
+						"base": "6dx3"
+					},
+					"strength": "530M†",
+					"usage": "Fire Stone",
+					"accuracy": "1",
+					"range": "290/360",
+					"rate_of_fire": "1",
+					"shots": "1(450)",
+					"bulk": "-22/-27",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "iq",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Artillery",
+							"specialization": "Catapult"
+						}
+					],
+					"calc": {
+						"damage": "6dx3 cr"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 240000,
+				"extended_weight": "56,000 lb"
+			}
+		},
+		{
+			"id": "eS9Rb7DcnWWonvKrL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eo5Aqwda9HNLDtSlv"
+			},
+			"description": "Litter",
+			"reference": "LT136",
+			"notes": "Requires two porters",
+			"tech_level": "0",
+			"tags": [
+				"Land Vehicle"
+			],
+			"value": 100,
+			"weight": "25 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "eblUhJVJ-PS9L8KG6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eqmqthWF6vsauMB7s"
+			},
+			"description": "Heavy Chariot",
+			"reference": "LT137",
+			"notes": "Draft animals are horses; roadbound vehicle",
+			"tech_level": "1",
+			"tags": [
+				"Land Vehicle"
+			],
+			"value": 660,
+			"weight": "780 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 660,
+				"extended_weight": "780 lb"
+			}
+		},
+		{
+			"id": "edpfoTdcZZ6Py6KxK",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "ekLUjdyaUv2-x73Eg"
+			},
+			"description": "Light Chariot",
+			"reference": "LT137",
+			"notes": "Draft animals are horses; roadbound vehicle",
+			"tech_level": "1",
+			"tags": [
+				"Land Vehicle"
+			],
+			"value": 330,
+			"weight": "460 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 330,
+				"extended_weight": "460 lb"
+			}
+		},
+		{
+			"id": "eB26rE6WFfR3IyEpD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eKY021hsTmIyZwBsh"
+			},
+			"description": "Oxcart",
+			"reference": "LT136",
+			"notes": "Draft animals are oxen",
+			"tech_level": "1",
+			"tags": [
+				"Land Vehicle"
+			],
+			"value": 340,
+			"weight": "1,800 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 340,
+				"extended_weight": "1,800 lb"
+			}
+		},
+		{
+			"id": "e9F-u19KyEAoroQxk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "ev3OZB1o362u0xrcD"
+			},
+			"description": "Straddle Car",
+			"reference": "LT137",
+			"notes": "Draft animal is a donkey",
+			"tech_level": "1",
+			"tags": [
+				"Land Vehicle"
+			],
+			"value": 164,
+			"weight": "240 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 164,
+				"extended_weight": "240 lb"
+			}
+		},
+		{
+			"id": "eYXUEPdh8aToA-wxi",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e62I5Uycjs_6qeHj8"
+			},
+			"description": "Wagon",
+			"reference": "LT136",
+			"notes": "Draft animals are horses; roadbound vehicle",
+			"tech_level": "3",
+			"tags": [
+				"Land Vehicle"
+			],
+			"value": 680,
+			"weight": "1,680 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 680,
+				"extended_weight": "1,680 lb"
+			}
+		},
+		{
+			"id": "e4U8srEsbcd0Uiocz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eE9OySE-g90xjt2C7"
+			},
+			"description": "War Wagon",
+			"reference": "LT136",
+			"notes": "Draft animals are horses; roadbound vehicle",
+			"tech_level": "3",
+			"tags": [
+				"Land Vehicle"
+			],
+			"value": 2000,
+			"weight": "6,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "6,000 lb"
+			}
+		},
+		{
+			"id": "ef9CWpa1N1Km01rUh",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e_c5gODsgjOEhbAKT"
+			},
+			"description": "Carriage",
+			"reference": "LT137",
+			"notes": "Draft animals are horses; roadbound vehicle",
+			"tech_level": "4",
+			"tags": [
+				"Land Vehicle"
+			],
+			"value": 7500,
+			"weight": "3,200 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 7500,
+				"extended_weight": "3,200 lb"
+			}
+		},
+		{
+			"id": "eg9pwOv2SBkvC4UVR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "ePbiDjE-ToyvuUG-x"
+			},
+			"description": "Dugout Canoe, 8’",
+			"reference": "LT140",
+			"tech_level": "0",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 920,
+			"weight": "520 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 920,
+				"extended_weight": "520 lb"
+			}
+		},
+		{
+			"id": "eIFNNtm5b94s6vA8F",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eyXwJ1FXcHE7A9iXN"
+			},
+			"description": "Kayak, 18’",
+			"reference": "LT140",
+			"tech_level": "0",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 500,
+			"weight": "240 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "240 lb"
+			}
+		},
+		{
+			"id": "eKrjRCstzzSxBHCxM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "esD-dlMs528V_y9l8"
+			},
+			"description": "Large Bark Canoe, 20’",
+			"reference": "LT140",
+			"tech_level": "0",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 220,
+			"weight": "1,760 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 220,
+				"extended_weight": "1,760 lb"
+			}
+		},
+		{
+			"id": "eUWclKF9QyY6iKguG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eyIv77SEZFqYMk6LN"
+			},
+			"description": "Long Dugout Canoe, 30’",
+			"reference": "LT140",
+			"tech_level": "0",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 4000,
+			"weight": "5,500 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "5,500 lb"
+			}
+		},
+		{
+			"id": "egPUVxFL8bPuI6Xx7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "esFktea1Vc4c15tkd"
+			},
+			"description": "Oblong Hide Boat, 5’",
+			"reference": "LT140",
+			"tech_level": "0",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 85,
+			"weight": "360 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 85,
+				"extended_weight": "360 lb"
+			}
+		},
+		{
+			"id": "etyV6UBNG21rCg3wi",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eZF8YpMNIgDmW-wXy"
+			},
+			"description": "Outrigger Canoe, 30’",
+			"reference": "LT140",
+			"tech_level": "0",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 6000,
+			"weight": "5,900 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6000,
+				"extended_weight": "5,900 lb"
+			}
+		},
+		{
+			"id": "eREjgw1qIYGPXyjqv",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eJiNMjTSkqWJAS8Vk"
+			},
+			"description": "Raft, 4\" Logs",
+			"reference": "LT138",
+			"tech_level": "0",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 95,
+			"weight": "580 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 95,
+				"extended_weight": "580 lb"
+			}
+		},
+		{
+			"id": "e5z1Bc3M5sXslM6Qv",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "egKJOLdWD30F5Eokj"
+			},
+			"description": "Raft, 6.5\" Reeds",
+			"reference": "LT138",
+			"tech_level": "0",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 330,
+			"weight": "1,180 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 330,
+				"extended_weight": "1,180 lb"
+			}
+		},
+		{
+			"id": "ek2G9pSmDBImjZ7O8",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eB9BcdSW6xzOo8yrv"
+			},
+			"description": "Raft, 7\" Logs",
+			"reference": "LT138",
+			"tech_level": "0",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 140,
+			"weight": "960 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 140,
+				"extended_weight": "960 lb"
+			}
+		},
+		{
+			"id": "eahm7HZMV8a4xg2FC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "emkERiwjJwmimDBNy"
+			},
+			"description": "Raft, 10\" Logs",
+			"reference": "LT138",
+			"tech_level": "0",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 195,
+			"weight": "1,360 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 195,
+				"extended_weight": "1,360 lb"
+			}
+		},
+		{
+			"id": "eR7PW8ckfuZPcMbw2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eJwSX9xkOXnzPfnDg"
+			},
+			"description": "Raft, 12\" Logs",
+			"reference": "LT138",
+			"tech_level": "0",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 240,
+			"weight": "1,760 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 240,
+				"extended_weight": "1,760 lb"
+			}
+		},
+		{
+			"id": "eYyYLy0pbNzzRiL0u",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eGTcjM0qjzQjZnTJI"
+			},
+			"description": "Round Hide Boat, 5’",
+			"reference": "LT140",
+			"tech_level": "0",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 280,
+			"weight": "2,600 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 280,
+				"extended_weight": "2,600 lb"
+			}
+		},
+		{
+			"id": "evsorkOHZB35TIHai",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "evyzUHq4kV2iwslHb"
+			},
+			"description": "War Canoe, 60’",
+			"reference": "LT140",
+			"tech_level": "0",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 18000,
+			"weight": "11,600 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 18000,
+				"extended_weight": "11,600 lb"
+			}
+		},
+		{
+			"id": "eRS3DT-J4I1Uyjpi_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e2UX8vLjKIafpWPKo"
+			},
+			"description": "Double Canoe, 30’",
+			"reference": "LT140",
+			"tech_level": "1",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 14000,
+			"weight": "6,400 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 14000,
+				"extended_weight": "6,400 lb"
+			}
+		},
+		{
+			"id": "eo3_RrnziYSKmxi7o",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eLXqrDQ2eNMxdATkJ"
+			},
+			"description": "Fowling Boat, 16’",
+			"reference": "LT141",
+			"tech_level": "1",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 560,
+			"weight": "1,040 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 560,
+				"extended_weight": "1,040 lb"
+			}
+		},
+		{
+			"id": "erFqdLmt4ku6VCsfj",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eIQSAtTk45s1ZNR-2"
+			},
+			"description": "Large Hide Boat, 36’",
+			"reference": "LT140",
+			"tech_level": "1",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 1000,
+			"weight": "6,680 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "6,680 lb"
+			}
+		},
+		{
+			"id": "eCrvwftK5i7iQNxYP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "ec_uIvATPpJtICFhr"
+			},
+			"description": "River Barge, 40'",
+			"reference": "LT141",
+			"tech_level": "1",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 12000,
+			"weight": "8,400 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 12000,
+				"extended_weight": "8,400 lb"
+			}
+		},
+		{
+			"id": "ejOQU5kiQdMUiKNcr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "edCMSYrZcx_g6W_zV"
+			},
+			"description": "Sampan, 15’",
+			"reference": "LT141",
+			"tech_level": "1",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 1800,
+			"weight": "560 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1800,
+				"extended_weight": "560 lb"
+			}
+		},
+		{
+			"id": "eY43e-a5IBmCw0yZP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "exsRZXqsuxv1Czvk1"
+			},
+			"description": "Sewn-Plank Riverboat, 30’",
+			"reference": "LT141",
+			"tech_level": "1",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 1400,
+			"weight": "4,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1400,
+				"extended_weight": "4,000 lb"
+			}
+		},
+		{
+			"id": "eIaGWcGm6xBs4yZ9B",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e8aqrs8pnJ2D6zl85"
+			},
+			"description": "Fishing Boat, 27'",
+			"reference": "LT141",
+			"tech_level": "2",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 5000,
+			"weight": "4,200 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5000,
+				"extended_weight": "4,200 lb"
+			}
+		},
+		{
+			"id": "e9nAOT2DOa2R8H5J0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eE6H4eZFWQrNWZCmL"
+			},
+			"description": "Square-Rigged Sailboat",
+			"reference": "LT141",
+			"tech_level": "2",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 15000,
+			"weight": "14,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 15000,
+				"extended_weight": "14,000 lb"
+			}
+		},
+		{
+			"id": "ebBQInpZ-73jbq-co",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e17mbmNYHwml_9wcm"
+			},
+			"description": "Faering, 20'",
+			"reference": "LT142",
+			"tech_level": "3",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 2500,
+			"weight": "2,500 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2500,
+				"extended_weight": "2,500 lb"
+			}
+		},
+		{
+			"id": "eiH0VKKGUaZXXZT1z",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eJN0HzG8RE4dcbPaQ"
+			},
+			"description": "Sewn-Plank Sailboat",
+			"reference": "LT142",
+			"tech_level": "3",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 1400,
+			"weight": "4,400 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1400,
+				"extended_weight": "4,400 lb"
+			}
+		},
+		{
+			"id": "ei7pqO92G7o8iUa44",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eXS0y_NX2Ipa6yCvW"
+			},
+			"description": "Brig, 50'",
+			"reference": "LT142",
+			"tech_level": "4",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 165000,
+			"weight": "140,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 165000,
+				"extended_weight": "140,000 lb"
+			}
+		},
+		{
+			"id": "epR6m1NUCrEW5aPuM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eJDPpRJD1r8EZzU1x"
+			},
+			"description": "Jolly Boat, 18'",
+			"reference": "LT142",
+			"tech_level": "4",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 3000,
+			"weight": "2,700 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3000,
+				"extended_weight": "2,700 lb"
+			}
+		},
+		{
+			"id": "eRLhdgqu2kGzqM0Gc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "ehYRUDmVWkzBcTz1j"
+			},
+			"description": "Longboat, 30'",
+			"reference": "LT142",
+			"tech_level": "4",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 5000,
+			"weight": "3,500 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5000,
+				"extended_weight": "3,500 lb"
+			}
+		},
+		{
+			"id": "excRVbEKvTsVqbhsR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e1anP5lfL9Nw5q4DY"
+			},
+			"description": "Sloop, 21'",
+			"reference": "LT142",
+			"tech_level": "4",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 5000,
+			"weight": "4,800 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5000,
+				"extended_weight": "4,800 lb"
+			}
+		},
+		{
+			"id": "eC6961f5mqF1cwa6W",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eb-5pse6owRib4fHB"
+			},
+			"description": "Voyageur Canoe, 35’",
+			"reference": "LT141",
+			"tech_level": "4",
+			"tags": [
+				"Boats and Ships"
+			],
+			"value": 1900,
+			"weight": "11,560 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1900,
+				"extended_weight": "11,560 lb"
+			}
+		},
+		{
+			"id": "e8LG_Ae-HMDJG1Tp6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e3Z5pnnCrNiETHCQa"
+			},
+			"description": "Coach",
+			"reference": "LT137",
+			"notes": "Draft animals are horses; roadbound vehicle",
+			"tech_level": "4",
+			"tags": [
+				"Land Vehicle"
+			],
+			"value": 11000,
+			"weight": "4,800 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 11000,
+				"extended_weight": "4,800 lb"
+			}
+		},
+		{
+			"id": "eG6ZA12yBF3agqdlo",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e73tGl28A1oiVWh5j"
+			},
+			"description": "Sleigh",
+			"reference": "LT135",
+			"notes": "Draft animal is a horse",
+			"tech_level": "4",
+			"tags": [
+				"Land Vehicle"
+			],
+			"value": 2000,
+			"weight": "600 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "600 lb"
+			}
+		},
+		{
+			"id": "eTFHPP9dvOJcVueGu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eeTzKDs5A4TToy_Vr"
+			},
+			"description": "Scorpion, 54” Tripod",
+			"reference": "LT83",
+			"tech_level": "2",
+			"tags": [
+				"Heavy Weapons Accessories"
+			],
+			"value": 3500,
+			"weight": "140 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3500,
+				"extended_weight": "140 lb"
+			}
+		},
+		{
+			"id": "eTblXPL2aI83tg8oH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e-LFphVxRVKjo_2r-"
+			},
+			"description": "Scorpion, 36”",
+			"reference": "LT80",
+			"notes": "Detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 4000,
+			"weight": "160 lb",
+			"weapons": [
+				{
+					"id": "WmSpGnbDd9CBbFdZ5",
+					"damage": {
+						"type": "imp",
+						"base": "4d"
+					},
+					"strength": "21M†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "240/300",
+					"rate_of_fire": "1",
+					"shots": "1(15)",
+					"bulk": "-10",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "4d imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 4000,
+				"extended_weight": "160 lb"
+			}
+		},
+		{
+			"id": "e-p36IXdMHVnDDgZi",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eVtv530uEAD4AbHG_"
+			},
+			"description": "Scorpion, 72” Tripod",
+			"reference": "LT83",
+			"tech_level": "2",
+			"tags": [
+				"Heavy Weapons Accessories"
+			],
+			"value": 6300,
+			"weight": "250 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 6300,
+				"extended_weight": "250 lb"
+			}
+		},
+		{
+			"id": "eKKgjbHAnoh4xvvqI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "egS0AJ619ivgucUjA"
+			},
+			"description": "Scorpion, 54”",
+			"reference": "LT80",
+			"notes": "Detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 12800,
+			"weight": "515 lb",
+			"weapons": [
+				{
+					"id": "WTDF16rwdxWnQUavU",
+					"damage": {
+						"type": "imp",
+						"base": "6d-1"
+					},
+					"strength": "51M†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "250/315",
+					"rate_of_fire": "1",
+					"shots": "1(35)",
+					"bulk": "-12",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "6d-1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 12800,
+				"extended_weight": "515 lb"
+			}
+		},
+		{
+			"id": "eNWpDgS2PRkPlo2G_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "enPi-Td6I3lZ0ttb0"
+			},
+			"description": "Dogsled",
+			"reference": "LT135",
+			"notes": "Draft animals are dogs for the dogsled",
+			"tech_level": "0",
+			"tags": [
+				"Land Vehicle"
+			],
+			"value": 400,
+			"weight": "580 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "580 lb"
+			}
+		},
+		{
+			"id": "endW69XLfpY1aas6h",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "ek_iMEejaLfuAeNBJ"
+			},
+			"description": "Scorpion, 72”",
+			"reference": "LT80",
+			"notes": "Requires 1 crew; detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 30000,
+			"weight": "1,190 lb",
+			"weapons": [
+				{
+					"id": "WF84tbEnJs3hyRSu8",
+					"damage": {
+						"type": "imp",
+						"base": "7d+1"
+					},
+					"strength": "77M†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "275/345",
+					"rate_of_fire": "1",
+					"shots": "1(30)",
+					"bulk": "-14",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "7d+1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 30000,
+				"extended_weight": "1,190 lb"
+			}
+		},
+		{
+			"id": "eeC5uogc0ZSkLyjzP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "ebObEoAX8Cg79nG6v"
+			},
+			"description": "Scorpion",
+			"reference": "B281",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 5000,
+			"weight": "110 lb",
+			"weapons": [
+				{
+					"id": "WcKuGnRzCLAVCjIdD",
+					"damage": {
+						"type": "imp",
+						"base": "5d"
+					},
+					"strength": "45M†",
+					"accuracy": "3",
+					"range": "415/520",
+					"rate_of_fire": "1",
+					"shots": "1(30)",
+					"bulk": "-10",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Beams",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Cannon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Machine Gun",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Rockets",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "5d imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5000,
+				"extended_weight": "110 lb"
+			}
+		},
+		{
+			"id": "ejijEn1P2iK10-A5j",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eGTZyIJKPHoOW3G1A"
+			},
+			"description": "Scorpion, 27”",
+			"reference": "LT80",
+			"notes": "Detachable tripod required; see Tripod Mount Table (p. LT83).",
+			"tech_level": "2",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 1600,
+			"weight": "65 lb",
+			"weapons": [
+				{
+					"id": "Wk7LpW5P2J2wgWr4C",
+					"damage": {
+						"type": "imp",
+						"base": "3d"
+					},
+					"strength": "17M†",
+					"usage": "Fire Bolt",
+					"accuracy": "4",
+					"range": "220/275",
+					"rate_of_fire": "1",
+					"shots": "1(10)",
+					"bulk": "-9",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Catapult"
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						}
+					],
+					"calc": {
+						"damage": "3d imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1600,
+				"extended_weight": "65 lb"
+			}
+		},
+		{
+			"id": "exyf8KlJisRohfNtC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e9P5qO-f7jTa_aKoE"
+			},
+			"description": "Ship's  Gun, 4-lb.",
+			"reference": "LT89",
+			"notes": "Requires 2 crew",
+			"tech_level": "4",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 14000,
+			"weight": "1,000 lb",
+			"weapons": [
+				{
+					"id": "WWaP-4AGgNJMM40lm",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx3"
+					},
+					"strength": "40M†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "270/2,300",
+					"rate_of_fire": "1",
+					"shots": "1(60)",
+					"bulk": "-12",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Cannon"
+						}
+					],
+					"calc": {
+						"damage": "6dx3 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 14000,
+				"extended_weight": "1,000 lb"
+			}
+		},
+		{
+			"id": "e7yTCZoH3siZNJJY5",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "ejpsgfl8GVo0GSC0e"
+			},
+			"description": "Ship's  Gun, 9-lb.",
+			"reference": "LT89",
+			"notes": "Requires 4 crew",
+			"tech_level": "4",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 39000,
+			"weight": "2,900 lb",
+			"weapons": [
+				{
+					"id": "WYLft0VimW7hggSoh",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx4"
+					},
+					"strength": "50M†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "310/2,400",
+					"rate_of_fire": "1",
+					"shots": "1(60)",
+					"bulk": "-14",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Cannon"
+						}
+					],
+					"calc": {
+						"damage": "6dx4 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 39000,
+				"extended_weight": "2,900 lb"
+			}
+		},
+		{
+			"id": "eT_G0yLjNYZOeORV9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e8uitUlp0r15b5FgG"
+			},
+			"description": "Ship's  Gun, 18-lb.",
+			"reference": "LT89",
+			"notes": "Requires 6 crew",
+			"tech_level": "4",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 65000,
+			"weight": "5,000 lb",
+			"weapons": [
+				{
+					"id": "W6fwuCv0DYxoMEIYE",
+					"damage": {
+						"type": "pi++",
+						"base": "7dx4"
+					},
+					"strength": "60M†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "340/2,600",
+					"rate_of_fire": "1",
+					"shots": "1(70)",
+					"bulk": "-15",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Cannon"
+						}
+					],
+					"calc": {
+						"damage": "7dx4 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 65000,
+				"extended_weight": "5,000 lb"
+			}
+		},
+		{
+			"id": "epchjIEPrxgU7_0vu",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eq5zVXQqWxQYWE3NB"
+			},
+			"description": "Ship's  Gun, 42-lb.",
+			"reference": "LT89",
+			"notes": "Requires 11 crew",
+			"tech_level": "4",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 100000,
+			"weight": "7,300 lb",
+			"weapons": [
+				{
+					"id": "Wz2vOzAFLyLt712uu",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx5"
+					},
+					"strength": "75M†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "380/2,800",
+					"rate_of_fire": "1",
+					"shots": "1(90)",
+					"bulk": "-16",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Cannon"
+						}
+					],
+					"calc": {
+						"damage": "6dx5 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100000,
+				"extended_weight": "7,300 lb"
+			}
+		},
+		{
+			"id": "ehNTG6nmvPte68Xa7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eYy_BK5oehGuVMSAi"
+			},
+			"description": "Ship's Gun,4-lb. Cannonball",
+			"reference": "LT89",
+			"tech_level": "4",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 150,
+			"weight": "7.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "7.5 lb"
+			}
+		},
+		{
+			"id": "eEHIgerCsg6DVmZIi",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eNA2w45uk8D7UQqj_"
+			},
+			"description": "Ship's Gun,9-lb. Cannonball",
+			"reference": "LT89",
+			"tech_level": "4",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 330,
+			"weight": "16.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 330,
+				"extended_weight": "16.5 lb"
+			}
+		},
+		{
+			"id": "eKNUWe3KDqK243FFP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "et2MCUquQj6FTKB3G"
+			},
+			"description": "Ship's Gun,18-lb. Cannonball",
+			"reference": "LT89",
+			"tech_level": "4",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 560,
+			"weight": "28 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 560,
+				"extended_weight": "28 lb"
+			}
+		},
+		{
+			"id": "eIQm7mouKdNzwWHCC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e4bYSKykFC8rGhkVE"
+			},
+			"description": "Ship's Gun,42-lb. Cannonball",
+			"reference": "LT89",
+			"tech_level": "4",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 1200,
+			"weight": "60 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "60 lb"
+			}
+		},
+		{
+			"id": "eimMT3zbM5eVMlUpY",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e3N6EGhPwxFH8a1Ue"
+			},
+			"description": "Ship’s  Gun, 4-lb. Truck Carriage Mount",
+			"reference": "LT89",
+			"tech_level": "4",
+			"tags": [
+				"Heavy Weapons Accessories"
+			],
+			"value": 590,
+			"weight": "1,250 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 590,
+				"extended_weight": "1,250 lb"
+			}
+		},
+		{
+			"id": "e1QCcfF8p-plD9dhW",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "epvQKMEMc5Rem7eR8"
+			},
+			"description": "Ship’s  Gun, 9-lb. Truck Carriage Mount",
+			"reference": "LT89",
+			"tech_level": "4",
+			"tags": [
+				"Heavy Weapons Accessories"
+			],
+			"value": 770,
+			"weight": "3,600 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 770,
+				"extended_weight": "3,600 lb"
+			}
+		},
+		{
+			"id": "eEKKYAS1ShSYb2uRy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eogxZfm-bwlmQ8isZ"
+			},
+			"description": "Ship’s Gun, 18-lb. Truck Carriage Mount",
+			"reference": "LT89",
+			"tech_level": "4",
+			"tags": [
+				"Heavy Weapons Accessories"
+			],
+			"value": 890,
+			"weight": "6,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 890,
+				"extended_weight": "6,000 lb"
+			}
+		},
+		{
+			"id": "e5oWz7wJ5qKJwbi_M",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eOqb3jr7TKDn0ziK6"
+			},
+			"description": "Ship’s Gun, 42-lb. Truck Carriage Mount",
+			"reference": "LT89",
+			"tech_level": "4",
+			"tags": [
+				"Heavy Weapons Accessories"
+			],
+			"value": 1200,
+			"weight": "9,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1200,
+				"extended_weight": "9,000 lb"
+			}
+		},
+		{
+			"id": "eIPKg2-7x7EL9ggKP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eCAPddo5YIH3N7E_C"
+			},
+			"description": "Falcon Truck Carriage Mount",
+			"reference": "LT89",
+			"tech_level": "4",
+			"tags": [
+				"Heavy Weapons Accessories"
+			],
+			"value": 540,
+			"weight": "850 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 540,
+				"extended_weight": "850 lb"
+			}
+		},
+		{
+			"id": "e23Jt9WltL3VbZ7fq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e1zp2iOviPSkcCwJa"
+			},
+			"description": "Falcon Cannonball",
+			"reference": "LT89",
+			"tech_level": "4",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 64,
+			"weight": "3.2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 64,
+				"extended_weight": "3.2 lb"
+			}
+		},
+		{
+			"id": "eLrmMEvvBfdhZVFZq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eRPSzJEeM5OMR_syQ"
+			},
+			"description": "Falcon",
+			"reference": "LT88",
+			"tech_level": "4",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 9400,
+			"weight": "680 lb",
+			"weapons": [
+				{
+					"id": "WCpaeWU99ukWeMAJk",
+					"damage": {
+						"type": "pi++",
+						"base": "10d+1"
+					},
+					"strength": "36M†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "140/1,300",
+					"rate_of_fire": "1",
+					"shots": "1(60)",
+					"bulk": "-12",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Cannon"
+						}
+					],
+					"calc": {
+						"damage": "10d+1 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 9400,
+				"extended_weight": "680 lb"
+			}
+		},
+		{
+			"id": "eDkXEWbm9UZYZ5nbX",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "enzrREG_pZ_zsmWPz"
+			},
+			"description": "Cannon, 24-lb. Field Carriage Mount",
+			"reference": "LT89",
+			"tech_level": "4",
+			"tags": [
+				"Heavy Weapons Accessories"
+			],
+			"value": 960,
+			"weight": "8,600 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 960,
+				"extended_weight": "8,600 lb"
+			}
+		},
+		{
+			"id": "e7GJ_A595vPSDKf6I",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eeBuZ_y_pquCUvaGv"
+			},
+			"description": "Cannon, 24-lb. Cannonball",
+			"reference": "LT89",
+			"tech_level": "4",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 720,
+			"weight": "36 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 720,
+				"extended_weight": "36 lb"
+			}
+		},
+		{
+			"id": "eA3bzhZfkhlloQM4q",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e6oJya4SJE6tfxIg-"
+			},
+			"description": "Cannon, 24-lb.",
+			"reference": "LT89",
+			"notes": "Requires 7 crew",
+			"tech_level": "4",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 95000,
+			"weight": "6,900 lb",
+			"weapons": [
+				{
+					"id": "WDisHPN3Q4KpOPhJI",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx5"
+					},
+					"strength": "64M†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "370/2,700",
+					"rate_of_fire": "1",
+					"shots": "1(70)",
+					"bulk": "-16",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Cannon"
+						}
+					],
+					"calc": {
+						"damage": "6dx5 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 95000,
+				"extended_weight": "6,900 lb"
+			}
+		},
+		{
+			"id": "ed7s5N2CL9uslPISG",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e_XRVgnBrvt4O3JnB"
+			},
+			"description": "Scorpion, 36” Tripod",
+			"reference": "LT83",
+			"tech_level": "2",
+			"tags": [
+				"Heavy Weapons Accessories"
+			],
+			"value": 1700,
+			"weight": "67 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1700,
+				"extended_weight": "67 lb"
+			}
+		},
+		{
+			"id": "eMSrVBFCXRvE6S9L7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eMWMqHIsrpDNhgoTY"
+			},
+			"description": "Swivel-Gun Pintle Mount",
+			"reference": "LT89",
+			"tech_level": "4",
+			"tags": [
+				"Heavy Weapons Accessories"
+			],
+			"value": 1300,
+			"weight": "65 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1300,
+				"extended_weight": "65 lb"
+			}
+		},
+		{
+			"id": "emtG_b3vyXqahi6fp",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eDCvZB2H4m2Wi2wrp"
+			},
+			"description": "Culverin Truck Carriage Mount",
+			"reference": "LT89",
+			"tech_level": "4",
+			"tags": [
+				"Heavy Weapons Accessories"
+			],
+			"value": 870,
+			"weight": "6,000 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 870,
+				"extended_weight": "6,000 lb"
+			}
+		},
+		{
+			"id": "eoFiMrUKn4YuNaa4-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eHc-VP9r7CwvjWLpz"
+			},
+			"description": "Culverin Cannonball",
+			"reference": "LT89",
+			"tech_level": "4",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 600,
+			"weight": "30 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 600,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "eHNrHudqfok5TyKdY",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e_v_n0XvJAA-sp0Iv"
+			},
+			"description": "Culverin",
+			"reference": "LT88",
+			"notes": "Requires 6 crew",
+			"tech_level": "4",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 66000,
+			"weight": "4,800 lb",
+			"weapons": [
+				{
+					"id": "W2T72MBm9D1nt4FQs",
+					"damage": {
+						"type": "pi++",
+						"base": "6dx4"
+					},
+					"strength": "58M†",
+					"usage": "Shoot",
+					"accuracy": "2",
+					"range": "300/2,200",
+					"rate_of_fire": "1",
+					"shots": "1(70)",
+					"bulk": "-15",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Cannon"
+						}
+					],
+					"calc": {
+						"damage": "6dx4 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 66000,
+				"extended_weight": "4,800 lb"
+			}
+		},
+		{
+			"id": "eyjtu9nXu53ujCpZy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eec-lh0j2AgPmbUb0"
+			},
+			"description": "Lantaka Pintle Mount",
+			"reference": "LT89",
+			"tech_level": "3",
+			"tags": [
+				"Heavy Weapons Accessories"
+			],
+			"value": 270,
+			"weight": "13.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 270,
+				"extended_weight": "13.5 lb"
+			}
+		},
+		{
+			"id": "enKQ_C6ZOrhjy5T6D",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "e_VDv7yJZTtfMowS-"
+			},
+			"description": "Swivel-Gun Cannonball",
+			"reference": "LT89",
+			"tech_level": "4",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 50,
+			"weight": "2.5 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 50,
+				"extended_weight": "2.5 lb"
+			}
+		},
+		{
+			"id": "eyN1FiaHqOkVcVFPM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "efayEOpJTZP6e5053"
+			},
+			"description": "Swivel-Gun",
+			"reference": "LT87",
+			"tech_level": "4",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 1900,
+			"weight": "140 lb",
+			"weapons": [
+				{
+					"id": "WrxYzpUjqxsweLGKA",
+					"damage": {
+						"type": "pi++",
+						"base": "6d+1"
+					},
+					"strength": "27M†",
+					"usage": "Shoot",
+					"accuracy": "1",
+					"range": "90/900",
+					"rate_of_fire": "1",
+					"shots": "1(20)",
+					"bulk": "-8",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Cannon"
+						}
+					],
+					"calc": {
+						"damage": "6d+1 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1900,
+				"extended_weight": "140 lb"
+			}
+		},
+		{
+			"id": "eOj2HPtHylacIEZPM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "eh-SalTOVbhfHppYl"
+			},
+			"description": "Lantaka Cannonball",
+			"reference": "LT89",
+			"tech_level": "3",
+			"tags": [
+				"Ammunition"
+			],
+			"value": 1.6,
+			"weight": "0.08 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1.6,
+				"extended_weight": "0.08 lb"
+			}
+		},
+		{
+			"id": "eVSgiiMga138vLzvk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Low Tech/Low Tech Equipment.eqp",
+				"id": "edbHqVGTtXdP7kViS"
+			},
+			"description": "Lantaka",
+			"reference": "LT88",
+			"tech_level": "3",
+			"legality_class": "2",
+			"tags": [
+				"Heavy Weapons"
+			],
+			"value": 400,
+			"weight": "30 lb",
+			"weapons": [
+				{
+					"id": "W-lKpIJP3n73ZA0JJ",
+					"damage": {
+						"type": "pi++",
+						"base": "1d+1"
+					},
+					"strength": "16M†",
+					"usage": "Shoot",
+					"accuracy": "1",
+					"range": "40/400",
+					"rate_of_fire": "1",
+					"shots": "1(20)",
+					"bulk": "-6",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gunner",
+							"specialization": "Cannon"
+						}
+					],
+					"calc": {
+						"damage": "1d+1 pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "30 lb"
+			}
+		}
+	]
+}

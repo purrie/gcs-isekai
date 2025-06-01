@@ -1,0 +1,3974 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eC25uY_Re5rt5bcJ9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eQAHnmsHhnewNdrvR"
+			},
+			"description": "Ballistic Suit",
+			"reference": "B284",
+			"tech_level": "11",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 1000,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"leg",
+						"torso",
+						"vitals"
+					],
+					"amount": 24
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "esa7-DPexUN517Eo9",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "epgepOh4Lv_b5zLdz"
+			},
+			"description": "Ballistic Suit",
+			"reference": "B284",
+			"tech_level": "10",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 1000,
+			"weight": "6 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"leg",
+						"torso",
+						"vitals"
+					],
+					"amount": 18
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "6 lb"
+			}
+		},
+		{
+			"id": "eKObp_AP4TVLg50Ph",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e1RMxf-hqh46UFgcF"
+			},
+			"description": "Ballistic Vest",
+			"reference": "B284",
+			"tech_level": "11",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 400,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso",
+						"vitals"
+					],
+					"amount": 24
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "ep2vzE_XnjOJDLPPR",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eKRN0ZbrBjiumuhh9"
+			},
+			"description": "Ballistic Vest",
+			"reference": "B284",
+			"tech_level": "10",
+			"legality_class": "3",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 400,
+			"weight": "2 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso",
+						"vitals"
+					],
+					"amount": 16
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 400,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e0ZkKriR3v0MAyNEB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eWAQ5wuXhh_xoXdZf"
+			},
+			"description": "Assault Boots",
+			"reference": "B284",
+			"tech_level": "9",
+			"tags": [
+				"Footwear"
+			],
+			"value": 150,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 6
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Kick"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "e_mVoDvhnA2it4Ldq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eNhQ_ibbdqa6D3_om"
+			},
+			"description": "Assault Boots",
+			"reference": "B284",
+			"tech_level": "10",
+			"tags": [
+				"Footwear"
+			],
+			"value": 150,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 9
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Kick"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eWxxeDn3alUwLn_LL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eA5vZ2wsW0Ks8QVfg"
+			},
+			"description": "Assault Boots",
+			"reference": "B284",
+			"tech_level": "11",
+			"tags": [
+				"Footwear"
+			],
+			"value": 150,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"foot"
+					],
+					"amount": 12
+				},
+				{
+					"type": "weapon_bonus",
+					"selection_type": "weapons_with_name",
+					"specialization": {
+						"compare": "is",
+						"qualifier": "Kick"
+					},
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "ey63TOvLwNto7v52f",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eaVppQQrIDnLaaN6V"
+			},
+			"description": "Laser Microphone",
+			"reference": "B289",
+			"notes": "Eavesdrop through glass. 300-yd. range.",
+			"tech_level": "8",
+			"tags": [
+				"Law-Enforcement",
+				"Spy Gear",
+				"Thief"
+			],
+			"value": 500,
+			"weight": "2 lb",
+			"quantity": 1,
+			"calc": {
+				"extended_value": 500,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "eyiRJuZKT92ZHQLFl",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e-d_gc2FlbmWGnpjy"
+			},
+			"description": "Nanobug",
+			"reference": "B289",
+			"notes": "Pinhead-sized audio-visual bug (-10 to spot)",
+			"tech_level": "8",
+			"tags": [
+				"Law-Enforcement",
+				"Spy Gear",
+				"Thief"
+			],
+			"value": 100,
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eu2EG2uQbVrc_0m1i",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "ekJ0dl6J62JNNFKSw"
+			},
+			"description": "Force Shield",
+			"reference": "B287",
+			"tech_level": "^",
+			"legality_class": "3",
+			"tags": [
+				"Shield"
+			],
+			"value": 1500,
+			"weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "wELI0Dnp-JNwg5fjO",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Shield Bash",
+					"reach": "1",
+					"block": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"specialization": "Buckler",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"specialization": "Force Shield"
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"specialization": "Shield",
+							"modifier": -2
+						}
+					],
+					"calc": {
+						"damage": "thr cr"
+					}
+				}
+			],
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Dodge, Parry \u0026 Block against attacks from the front or shield side",
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1500,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "ezUDxostyy3ePndys",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eenA5iohFyGrr-Dnv"
+			},
+			"description": "Electrolaser Pistol",
+			"reference": "B280",
+			"tech_level": "9",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 1800,
+			"weight": "2.2 lb",
+			"weapons": [
+				{
+					"id": "WCnsqfXQL7LMoxrAQ",
+					"damage": {
+						"type": "burn",
+						"base": "1d-3"
+					},
+					"strength": "4",
+					"accuracy": "4",
+					"range": "40/80",
+					"rate_of_fire": "3",
+					"shots": "180(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "1d-3 burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 1800,
+				"extended_weight": "2.2 lb"
+			}
+		},
+		{
+			"id": "eEAtmbT8H3GJ6vxnB",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "evMApd1Zme7jLJag0"
+			},
+			"description": "Reich 2 .338 Tungsten Sniper",
+			"reference": "B279",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 5600,
+			"weight": "17.5 lb",
+			"weapons": [
+				{
+					"id": "WVsHxjWiBXcfLIzpH",
+					"damage": {
+						"type": "pi",
+						"base": "7d+2",
+						"armor_divisor": 2
+					},
+					"strength": "11B†",
+					"accuracy": "6+3",
+					"range": "1,500/5,500",
+					"rate_of_fire": "1",
+					"shots": "4+1(3)",
+					"bulk": "-6",
+					"recoil": "4",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "7d+2(2) pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 5600,
+				"extended_weight": "17.5 lb"
+			}
+		},
+		{
+			"id": "e_gjFxMl2z5ZLqZkD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eylPQ5N5k1RQp_-eC"
+			},
+			"description": "ICW Integral, 25mm",
+			"reference": "B281",
+			"tech_level": "9",
+			"tags": [
+				"Missile Weapon"
+			],
+			"weapons": [
+				{
+					"id": "WkKBUBdJ-ml5OXiVt",
+					"damage": {
+						"type": "cr ex",
+						"base": "7d",
+						"fragmentation": "3d",
+						"fragmentation_type": "cut"
+					},
+					"strength": "10",
+					"usage": "Fragmentation",
+					"accuracy": "4+2",
+					"range": "2,200",
+					"rate_of_fire": "1",
+					"shots": "3(3)",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "7d cr ex [3d cut]"
+					}
+				},
+				{
+					"id": "WFoJIwr3Y6cMOmQhn",
+					"damage": {
+						"type": "cr ex",
+						"base": "4d"
+					},
+					"strength": "10",
+					"usage": "Concussion",
+					"accuracy": "4+2",
+					"range": "2,200",
+					"rate_of_fire": "1",
+					"shots": "3(3)",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "4d cr ex"
+					}
+				},
+				{
+					"id": "WeqJx45wM-JQpK-Z6",
+					"damage": {
+						"type": "HT-5 aff (10 yd)"
+					},
+					"strength": "10",
+					"usage": "Stun",
+					"accuracy": "4+2",
+					"range": "2,200",
+					"rate_of_fire": "1",
+					"shots": "3(3)",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "HT-5 aff (10 yd)"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eCdgZaH4YC5cVHacr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eEDoJaMxbHFpKTqe9"
+			},
+			"description": "Integral, 25mm",
+			"reference": "B281",
+			"tech_level": "9",
+			"tags": [
+				"Missile Weapon"
+			],
+			"weapons": [
+				{
+					"id": "WorD4pJ6_Ah_HP1V7",
+					"damage": {
+						"type": "cr ex",
+						"base": "7d",
+						"fragmentation": "3d",
+						"fragmentation_type": "cut"
+					},
+					"strength": "10",
+					"accuracy": "4+2",
+					"range": "2,200",
+					"rate_of_fire": "1",
+					"shots": "3(3)",
+					"recoil": "3",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "7d cr ex [3d cut]"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 0,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "e0DN1O3Cd_w6yfVv_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "ebkoC844wi2K-0HTf"
+			},
+			"description": "Electrolaser Carbine",
+			"reference": "B280",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 3900,
+			"weight": "3.7 lb",
+			"weapons": [
+				{
+					"id": "W0EXSv2vpC3ysxsIS",
+					"damage": {
+						"type": "burn",
+						"base": "1d-3"
+					},
+					"strength": "4†",
+					"accuracy": "8+1",
+					"range": "160/470",
+					"rate_of_fire": "3",
+					"shots": "360(3)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "1d-3 burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3900,
+				"extended_weight": "3.7 lb"
+			}
+		},
+		{
+			"id": "e1cwU_gpSXhfBGMks",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eFI2nsr9Bidj-inDp"
+			},
+			"description": "ICW, 6.8mm",
+			"reference": "B279",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 7000,
+			"weight": "12 lb",
+			"weapons": [
+				{
+					"id": "WD2W40hnGEz6JLm87",
+					"damage": {
+						"type": "pi",
+						"base": "6d"
+					},
+					"strength": "10†",
+					"accuracy": "4+2",
+					"range": "700/4,000",
+					"rate_of_fire": "15",
+					"shots": "25+1(3)",
+					"bulk": "-5",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "6d pi"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 7000,
+				"extended_weight": "12 lb"
+			}
+		},
+		{
+			"id": "eCbDtAacUjJPDr7ya",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eSVYbtS58zMC_JkbP"
+			},
+			"description": "Laser Sniper Rifle",
+			"reference": "B280",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 20000,
+			"weight": "20 lb",
+			"weapons": [
+				{
+					"id": "W9ro0_yVHT9ceQXHo",
+					"damage": {
+						"type": "burn",
+						"base": "5d",
+						"armor_divisor": 2
+					},
+					"strength": "10†",
+					"accuracy": "12+2",
+					"range": "1,100/3,300",
+					"rate_of_fire": "3",
+					"shots": "75(3)",
+					"bulk": "-8",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "5d(2) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "extmMyOLF95CskA0C",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eQ2uCrPZHq1DxbEnn"
+			},
+			"description": "Gyroc Pistol, 15mm",
+			"reference": "B278",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 200,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "WUh4syq6HPA4hNm_R",
+					"damage": {
+						"type": "pi++",
+						"base": "6d"
+					},
+					"strength": "9",
+					"accuracy": "1",
+					"range": "1,900",
+					"rate_of_fire": "3",
+					"shots": "4(3i)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "6d pi++"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 200,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "eraCl2LHEvCGIWuk7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eDQbJwEXmwibKobdQ"
+			},
+			"description": "Laser Rifle",
+			"reference": "B280",
+			"tech_level": "10",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 10000,
+			"weight": "10 lb",
+			"weapons": [
+				{
+					"id": "WqqQGSLWdWbN35H-d",
+					"damage": {
+						"type": "burn",
+						"base": "5d",
+						"armor_divisor": 2
+					},
+					"strength": "7†",
+					"accuracy": "12+2",
+					"range": "700/2,100",
+					"rate_of_fire": "10",
+					"shots": "150(3)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "5d(2) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eobGKmEyb3ogwjOjv",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eQKKlQeoNcT8BMWdq"
+			},
+			"description": "Gauss Rifle, 4mm",
+			"reference": "B279",
+			"tech_level": "10",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 7100,
+			"weight": "8.5 lb",
+			"weapons": [
+				{
+					"id": "WbFNuFf_-3f4TCmaR",
+					"damage": {
+						"type": "pi-",
+						"base": "6d+2",
+						"armor_divisor": 3
+					},
+					"strength": "10†",
+					"accuracy": "7+2",
+					"range": "1,200/4,800",
+					"rate_of_fire": "12",
+					"shots": "60(3)",
+					"bulk": "-4",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "6d+2(3) pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 7100,
+				"extended_weight": "8.5 lb"
+			}
+		},
+		{
+			"id": "eupDSFGlJencMUMjf",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e-bGGUBh5RIt0Wle1"
+			},
+			"description": "Laser Pistol",
+			"reference": "B280",
+			"tech_level": "10",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 2800,
+			"weight": "3.3 lb",
+			"weapons": [
+				{
+					"id": "WN1MnXycX7pFIGGph",
+					"damage": {
+						"type": "burn",
+						"base": "3d",
+						"armor_divisor": 2
+					},
+					"strength": "6",
+					"accuracy": "6",
+					"range": "250/750",
+					"rate_of_fire": "10",
+					"shots": "400(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "3d(2) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2800,
+				"extended_weight": "3.3 lb"
+			}
+		},
+		{
+			"id": "eVM9YvR1nMicMNK8P",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eoyiinZCpfzXW-tZy"
+			},
+			"description": "Gauss PDW, 4mm",
+			"reference": "B278",
+			"tech_level": "10",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 3600,
+			"weight": "4.6 lb",
+			"weapons": [
+				{
+					"id": "WnpA0Loh87O5e3GFv",
+					"damage": {
+						"type": "pi-",
+						"base": "4d",
+						"armor_divisor": 3
+					},
+					"strength": "9†",
+					"accuracy": "6+1",
+					"range": "700/2,900",
+					"rate_of_fire": "16",
+					"shots": "80(3)",
+					"bulk": "-3",
+					"recoil": "2",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Shotgun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Machine Gun",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Submachine Gun"
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Musket",
+							"modifier": -2
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Grenade Launcher",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Gyroc",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Light Anti-Armor Weapon",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "4d(3) pi-"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3600,
+				"extended_weight": "4.6 lb"
+			}
+		},
+		{
+			"id": "eF8WeFr2nMGCWAAW6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eHkYA3IkS5FfJeKpG"
+			},
+			"description": "Blaster Rifle",
+			"reference": "B280",
+			"tech_level": "11",
+			"legality_class": "2",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 18000,
+			"weight": "10 lb",
+			"weapons": [
+				{
+					"id": "WzKIH_osE9r5D6PUD",
+					"damage": {
+						"type": "burn",
+						"base": "6d",
+						"armor_divisor": 5
+					},
+					"strength": "7†",
+					"accuracy": "10+2",
+					"range": "700/2,100",
+					"rate_of_fire": "3",
+					"shots": "50(3)",
+					"bulk": "-4",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "6d(5) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 18000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "ev2XpeNe-HpVaDONQ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e-JAZolg20qXdPAlV"
+			},
+			"description": "Blaster Pistol",
+			"reference": "B280",
+			"tech_level": "11",
+			"legality_class": "3",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 2200,
+			"weight": "1.6 lb",
+			"weapons": [
+				{
+					"id": "WlhDVL1hwGEZc0YcP",
+					"damage": {
+						"type": "burn",
+						"base": "3d",
+						"armor_divisor": 5
+					},
+					"strength": "4",
+					"accuracy": "5",
+					"range": "300/900",
+					"rate_of_fire": "3",
+					"shots": "200(3)",
+					"bulk": "-2",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "3d(5) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2200,
+				"extended_weight": "1.6 lb"
+			}
+		},
+		{
+			"id": "ejOFt8vatgz2R1mAD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eTHjkx-dhIlMO8BbV"
+			},
+			"description": "Heavy Blaster",
+			"reference": "B280",
+			"tech_level": "11",
+			"legality_class": "1",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 23000,
+			"weight": "20 lb",
+			"weapons": [
+				{
+					"id": "W38uZaa0oMXK-bICS",
+					"damage": {
+						"type": "burn",
+						"base": "8d",
+						"armor_divisor": 5
+					},
+					"strength": "10†",
+					"accuracy": "10+4",
+					"range": "900/2,700",
+					"rate_of_fire": "3",
+					"shots": "90(5)",
+					"bulk": "-6",
+					"recoil": "1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Guns",
+							"specialization": "Rifle",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Pistol",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Rifle"
+						},
+						{
+							"type": "skill",
+							"name": "Beam Weapons",
+							"specialization": "Projector",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Gun!"
+						}
+					],
+					"calc": {
+						"damage": "8d(5) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 23000,
+				"extended_weight": "20 lb"
+			}
+		},
+		{
+			"id": "eDg1zJbPCW8GB7wBZ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eEvlaxat1BjPjsEu4"
+			},
+			"description": "Hand Grenade, Plasma",
+			"reference": "B277",
+			"notes": "Fuse 2",
+			"tech_level": "^",
+			"legality_class": "1",
+			"tags": [
+				"Missile Weapon"
+			],
+			"value": 100,
+			"weight": "1 lb",
+			"weapons": [
+				{
+					"id": "WEHOW3wOuqoEKzIxM",
+					"damage": {
+						"type": "burn ex",
+						"base": "6dx4"
+					},
+					"range": "x3.5",
+					"rate_of_fire": "1",
+					"shots": "1",
+					"defaults": [
+						{
+							"type": "skill",
+							"name": "Throwing"
+						},
+						{
+							"type": "skill",
+							"name": "Dropping",
+							"modifier": -4
+						},
+						{
+							"type": "dx",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "6dx4 burn ex"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "1 lb"
+			}
+		},
+		{
+			"id": "e8YFW0MfReyw1G0dP",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eOFQsc-mAPZfCK8xm"
+			},
+			"description": "Monowire Whip",
+			"reference": "B272",
+			"tech_level": "^",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 900,
+			"weight": "0.5 lb",
+			"weapons": [
+				{
+					"id": "wl4y7K0_ZgWPQDJlY",
+					"damage": {
+						"type": "cut",
+						"st": "sw",
+						"base": "1d-2",
+						"armor_divisor": 10
+					},
+					"strength": "5",
+					"reach": "1-7*",
+					"parry": "-2U",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -6
+						},
+						{
+							"type": "skill",
+							"name": "Monowire Whip"
+						},
+						{
+							"type": "skill",
+							"name": "Kusari",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Whip",
+							"modifier": -3
+						}
+					],
+					"calc": {
+						"damage": "sw+1d-2(10) cut"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
+			"id": "e4QrPytDw4tzdMHjg",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eiCTpkk03cbvnYe-i"
+			},
+			"description": "Force Sword",
+			"reference": "B272",
+			"tech_level": "^",
+			"legality_class": "2",
+			"tags": [
+				"Melee Weapon"
+			],
+			"value": 10000,
+			"weight": "2 lb",
+			"weapons": [
+				{
+					"id": "w56u5Ex2M16yAviP0",
+					"damage": {
+						"type": "burn",
+						"base": "8d",
+						"armor_divisor": 5
+					},
+					"strength": "3",
+					"usage": "Swung",
+					"reach": "1-2",
+					"parry": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -5
+						},
+						{
+							"type": "skill",
+							"name": "Broadsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword"
+						},
+						{
+							"type": "skill",
+							"name": "Saber",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Smallsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Two-Handed Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "8d(5) burn"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "2 lb"
+			}
+		},
+		{
+			"id": "e8ZbrbJnp3Zf3VLgA",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eBi9pzRk0wFGfVoIi"
+			},
+			"description": "Ballistic Helmet Visor",
+			"reference": "B285",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Headgear"
+			],
+			"value": 100,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 15
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eYwp0Bbp7CQybYMnC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "etXayBx0K1RPBlORi"
+			},
+			"description": "Ballistic Helmet",
+			"reference": "B285",
+			"tech_level": "9",
+			"legality_class": "3",
+			"tags": [
+				"Headgear"
+			],
+			"value": 250,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 18
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eh7gDs_yveLIOKF_U",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "egKV5ROomYwxmPq5F"
+			},
+			"description": "Ballistic Helmet Visor",
+			"reference": "B285",
+			"tech_level": "10",
+			"legality_class": "3",
+			"tags": [
+				"Headgear"
+			],
+			"value": 100,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 20
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eXKjPZtZ3K2fmfpnM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e6gIW5WtIRp_dmx49"
+			},
+			"description": "Ballistic Helmet",
+			"reference": "B285",
+			"tech_level": "10",
+			"legality_class": "3",
+			"tags": [
+				"Headgear"
+			],
+			"value": 250,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 24
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "eRZjW7Fy-wy6d6saJ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eDT__6PkwhmI-wIrw"
+			},
+			"description": "Ballistic Helmet Visor",
+			"reference": "B285",
+			"tech_level": "11",
+			"legality_class": "3",
+			"tags": [
+				"Headgear"
+			],
+			"value": 100,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 30
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "ehNIJLN7btg4MsXgD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eJljy4UIy5FkbGVvh"
+			},
+			"description": "Ballistic Helmet",
+			"reference": "B285",
+			"tech_level": "11",
+			"legality_class": "3",
+			"tags": [
+				"Headgear"
+			],
+			"value": 250,
+			"weight": "3 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 36
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 250,
+				"extended_weight": "3 lb"
+			}
+		},
+		{
+			"id": "ea3JUN5tvlRgZs_S3",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eC2a8dAOKWwfLWL8_"
+			},
+			"description": "Ballistic Gloves",
+			"reference": "B284",
+			"tech_level": "9",
+			"tags": [
+				"Gloves"
+			],
+			"value": 150,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 8
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "ec5nXgfmQL5XthcU_",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e-cIVxsxm9r4dihi4"
+			},
+			"description": "Ballistic Gloves",
+			"reference": "B284",
+			"tech_level": "10",
+			"tags": [
+				"Gloves"
+			],
+			"value": 150,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 12
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eOBjLKatnvX5ZQN-G",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e5F3ytInznMbDetvM"
+			},
+			"description": "Ballistic Gloves",
+			"reference": "B284",
+			"tech_level": "11",
+			"tags": [
+				"Gloves"
+			],
+			"value": 150,
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"hand"
+					],
+					"amount": 16
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "egTzRmYEFVBVpkuti",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "etDAIqmoV3Q2hyPVZ"
+			},
+			"description": "Battle Suit",
+			"reference": "B285",
+			"notes": "Climate-controlled; gives Super Jump 1; suit does not count against enumbrance when worn (not applied automatically)",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 80000,
+			"weight": "150 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "battlesuit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Diagnosis skill of others examining the wearer of the Battle Suit",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso",
+						"vitals"
+					],
+					"amount": 70
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "striking_only",
+					"attribute": "st",
+					"amount": 10
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "lifting_only",
+					"attribute": "st",
+					"amount": 10
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80000,
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "ek2w_UEhdWyulrc4x",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "esWtuFLur6xfg6JH9"
+			},
+			"description": "Battle Suit",
+			"reference": "B285",
+			"notes": "Climate-controlled; gives Super Jump 2; suit does not count against enumbrance when worn (not applied automatically)",
+			"tech_level": "10",
+			"legality_class": "1",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 80000,
+			"weight": "150 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "battlesuit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Diagnosis skill of others examining the wearer of the Battle Suit",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck"
+					],
+					"amount": 75
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso",
+						"vitals"
+					],
+					"amount": 105
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "striking_only",
+					"attribute": "st",
+					"amount": 15
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "lifting_only",
+					"attribute": "st",
+					"amount": 15
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80000,
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "eenO46xGexUYipyEx",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eorOlQlTaRxBV6WMA"
+			},
+			"description": "Battle Suit",
+			"reference": "B285",
+			"notes": "Climate-controlled; gives Super Jump 3; suit does not count against enumbrance when worn (not applied automatically)",
+			"tech_level": "11",
+			"legality_class": "1",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 80000,
+			"weight": "150 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "battlesuit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Diagnosis skill of others examining the wearer of the Battle Suit",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck"
+					],
+					"amount": 100
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso",
+						"vitals"
+					],
+					"amount": 140
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "striking_only",
+					"attribute": "st",
+					"amount": 20
+				},
+				{
+					"type": "attribute_bonus",
+					"limitation": "lifting_only",
+					"attribute": "st",
+					"amount": 20
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 80000,
+				"extended_weight": "150 lb"
+			}
+		},
+		{
+			"id": "eP73C-bjA_fu938VH",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e6NUIS6af12_MopLT"
+			},
+			"description": "Battle Suit Helmet",
+			"reference": "B285",
+			"notes": "Gives HUD compatible with smartgun electronics, Radio, Laser Communication, Absolute Direction (requires signal), Infravision, Hyperspectral Vision, Night Vision 9, Protected Hearing, Protected Vision, and Telescopic Vision 1; with full suit in place and sealed, also gives Doesn't Breathe (for 12 hours), Protected Smell, Filter Lungs, Sealed, and Vacuum Support",
+			"tech_level": "9",
+			"legality_class": "1",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 10000,
+			"weight": "15 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 50
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 70
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eiaZkgWemwO2BYiDM",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "esX9p70jsLzMwTb1g"
+			},
+			"description": "Battle Suit Helmet",
+			"reference": "B285",
+			"notes": "Gives HUD compatible with smartgun electronics, Radio, Laser Communication, Absolute Direction (requires signal), Infravision, Hyperspectral Vision, Night Vision 9, Protected Hearing, Protected Vision, and Telescopic Vision 2; with full suit in place and sealed, also gives Doesn't Breathe (for 12 hours), Protected Smell, Filter Lungs, Sealed, and Vacuum Support",
+			"tech_level": "10",
+			"legality_class": "1",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 10000,
+			"weight": "15 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 75
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 105
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eE-7g7JSyzHK_Y2ca",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e2VL3t6lFlXRriOE6"
+			},
+			"description": "Battle Suit Helmet",
+			"reference": "B285",
+			"notes": "Gives HUD compatible with smartgun electronics, Radio, Laser Communication, Absolute Direction (requires signal), Infravision, Hyperspectral Vision, Night Vision 9, Protected Hearing, Protected Vision, and Telescopic Vision 3; with full suit in place and sealed, also gives Doesn't Breathe (for 12 hours), Protected Smell, Filter Lungs, Sealed, and Vacuum Support",
+			"tech_level": "11",
+			"legality_class": "1",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 10000,
+			"weight": "15 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 100
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 140
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eh-kMLuLHM_-CrAJp",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eNJnvrc4VeRV-QXEA"
+			},
+			"description": "Combat Hardsuit",
+			"reference": "B285",
+			"notes": "Climate-controlled; does not limit DX",
+			"tech_level": "10",
+			"legality_class": "2",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 10000,
+			"weight": "30 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "nbc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Diagnosis skill of others examining the wearer of the Combat Hardsuit",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck"
+					],
+					"amount": 45
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso",
+						"vitals"
+					],
+					"amount": 75
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "eOVVve_QoUeGCy0Ai",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eB0dd7OPrqIF4u0wu"
+			},
+			"description": "Combat Hardsuit",
+			"reference": "B285",
+			"notes": "Climate-controlled; does not limit DX",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 10000,
+			"weight": "30 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "nbc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Diagnosis skill of others examining the wearer of the Combat Hardsuit",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso",
+						"vitals"
+					],
+					"amount": 50
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "ePtJdZ23-KQ5VONd2",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e9qCy8bpmeB-MP8Bi"
+			},
+			"description": "Combat Hardsuit",
+			"reference": "B285",
+			"notes": "Climate-controlled; does not limit DX",
+			"tech_level": "11",
+			"legality_class": "2",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 10000,
+			"weight": "30 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "nbc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Diagnosis skill of others examining the wearer of the Combat Hardsuit",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck"
+					],
+					"amount": 60
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso",
+						"vitals"
+					],
+					"amount": 100
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "30 lb"
+			}
+		},
+		{
+			"id": "eE3DcVMTergQAZL1y",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eSPrF93Jx1HasUhHv"
+			},
+			"description": "Combat Hardsuit Helmet",
+			"reference": "B285",
+			"notes": "Gives HUD compatible with smartgun electronics, Radio, Absolute Direction (requires signal), Infravision, Night Vision 9, Protected Hearing, Protected Vision, and Telescopic Vision 1; with full suit in place and sealed, also gives Protected Smell, Filter Lungs, and Sealed",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 2000,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 12
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 18
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ezczWexkaSQIssYOl",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eZHMOHfJwUI1Hde4z"
+			},
+			"description": "Combat Hardsuit Helmet",
+			"reference": "B285",
+			"notes": "Gives HUD compatible with smartgun electronics, Radio, Absolute Direction (requires signal), Infravision, Night Vision 9, Protected Hearing, Protected Vision, and Telescopic Vision 2; with full suit in place and sealed, also gives Protected Smell, Filter Lungs, and Sealed",
+			"tech_level": "10",
+			"legality_class": "2",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 2000,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 18
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 27
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eHOQ2Big40maz66Rr",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eKR5FhkWkJ0qME9dI"
+			},
+			"description": "Combat Hardsuit Helmet",
+			"reference": "B285",
+			"notes": "Gives HUD compatible with smartgun electronics, Radio, Absolute Direction (requires signal), Infravision, Night Vision 9, Protected Hearing, Protected Vision, and Telescopic Vision 3; with full suit in place and sealed, also gives Protected Smell, Filter Lungs, and Sealed",
+			"tech_level": "11",
+			"legality_class": "2",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 2000,
+			"weight": "4 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 24
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 36
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "e_ooMzEIlb54m3w8A",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eY9E_nxAkdxOGs37l"
+			},
+			"description": "NBC Suit",
+			"reference": "B285",
+			"tech_level": "7",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 150,
+			"weight": "3.5 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "nbc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck",
+						"skull",
+						"torso",
+						"vitals"
+					],
+					"specialization": "burning or corrosion",
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "eg30-vvaLl8jKPmzE",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e4X2DJUJMMMRD8v67"
+			},
+			"description": "NBC Suit",
+			"reference": "B285",
+			"notes": "Does not limit DX",
+			"tech_level": "9",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 150,
+			"weight": "3.5 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "nbc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck",
+						"skull",
+						"torso",
+						"vitals"
+					],
+					"specialization": "burning or corrosion",
+					"amount": 1
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 150,
+				"extended_weight": "3.5 lb"
+			}
+		},
+		{
+			"id": "emuHdnDT1nftBlbCf",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "ec9A47Bxh_Ileqvlq"
+			},
+			"description": "Space Armor",
+			"reference": "B285",
+			"notes": "Climate-controlled",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 20000,
+			"weight": "45 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "vacc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Diagnosis skill of others examining the wearer of the Space Armor",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso",
+						"vitals"
+					],
+					"amount": 50
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20000,
+				"extended_weight": "45 lb"
+			}
+		},
+		{
+			"id": "e6Ev-vF9IT90Cliuc",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eCKWue_mZUQ1QCttq"
+			},
+			"description": "Space Armor",
+			"reference": "B285",
+			"notes": "Climate-controlled",
+			"tech_level": "10",
+			"legality_class": "2",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 20000,
+			"weight": "45 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "vacc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Diagnosis skill of others examining the wearer of the Space Armor",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck"
+					],
+					"amount": 45
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso",
+						"vitals"
+					],
+					"amount": 75
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20000,
+				"extended_weight": "45 lb"
+			}
+		},
+		{
+			"id": "e-CLHfaDt1-0oZOXy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e-91ej8qTfVEsQekc"
+			},
+			"description": "Space Armor",
+			"reference": "B285",
+			"notes": "Climate-controlled",
+			"tech_level": "11",
+			"legality_class": "2",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 20000,
+			"weight": "45 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "vacc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Diagnosis skill of others examining the wearer of the Space Armor",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck"
+					],
+					"amount": 60
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"torso",
+						"vitals"
+					],
+					"amount": 100
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20000,
+				"extended_weight": "45 lb"
+			}
+		},
+		{
+			"id": "e182miQLbdzYNjtDk",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e624nzlMhll8d3tsV"
+			},
+			"description": "Space Armor Helmet",
+			"reference": "B285",
+			"notes": "Gives HUD compatible with smartgun electronics, Radio, Absolute Direction (requires signal), Infravision, Night Vision 9, Protected Hearing, Protected Vision, and Telescopic Vision 1; with full suit in place and sealed, also gives Doesn't Breathe (for 12 hours), Protected Smell, Filter Lungs, Vacuum Support, and Sealed",
+			"tech_level": "9",
+			"legality_class": "2",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 3000,
+			"weight": "7 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 30
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 40
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3000,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "eI3y17EUZgL6DTs7S",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "exYMHe8kFzvT0NduJ"
+			},
+			"description": "Space Armor Helmet",
+			"reference": "B285",
+			"notes": "Gives HUD compatible with smartgun electronics, Radio, Absolute Direction (requires signal), Infravision, Night Vision 9, Protected Hearing, Protected Vision, and Telescopic Vision 2; with full suit in place and sealed, also gives Doesn't Breathe (for 12 hours), Protected Smell, Filter Lungs, Vacuum Support, and Sealed",
+			"tech_level": "10",
+			"legality_class": "2",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 3000,
+			"weight": "7 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 45
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 60
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3000,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "exgUwUqIw3NjkIhE6",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e8R8DihIhS94uxOMz"
+			},
+			"description": "Space Armor Helmet",
+			"reference": "B285",
+			"notes": "Gives HUD compatible with smartgun electronics, Radio, Absolute Direction (requires signal), Infravision, Night Vision 9, Protected Hearing, Protected Vision, and Telescopic Vision 3; with full suit in place and sealed, also gives Doesn't Breathe (for 12 hours), Protected Smell, Filter Lungs, Vacuum Support, and Sealed",
+			"tech_level": "11",
+			"legality_class": "2",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 3000,
+			"weight": "7 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 60
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 80
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3000,
+				"extended_weight": "7 lb"
+			}
+		},
+		{
+			"id": "eDkbucD4jMHNQZf6p",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eqb_-CIZ7Lolg3TdW"
+			},
+			"description": "Space Helmet",
+			"reference": "B285",
+			"notes": "Gives Filter Lungs, Protected Smell, Protected Hearing, Protected Vision, No Peripheral Vision, and Radio.",
+			"tech_level": "7",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 25000,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "ejTtjMMObUi_t251R",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eLW-zKQzf_ZvNMCwK"
+			},
+			"description": "Space Helmet",
+			"reference": "B285",
+			"notes": "Gives HUD compatible with smartgun electronics, Filter Lungs, Protected Smell, Protected Hearing, Protected Vision, Infravision, Night Vision 9, Telescopic Vision 1, Absolute Direction (requires signal) and Radio; with full suit in place and sealed, also gives Doesn't Breathe (for 12 hours), Protected Smell, Sealed, and Vacuum Support",
+			"tech_level": "9",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 25000,
+			"weight": "10 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face"
+					],
+					"amount": 3
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"skull"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 25000,
+				"extended_weight": "10 lb"
+			}
+		},
+		{
+			"id": "eAwdpRJZxm93E1SPJ",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eIhB0z_7l4uWsO8CS"
+			},
+			"description": "Space Suit",
+			"reference": "B285",
+			"notes": "Climate-controlled",
+			"tech_level": "7",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 2000000,
+			"weight": "225 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "vacc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Diagnosis skill of others examining the wearer of the Space Suit",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck",
+						"torso",
+						"vitals"
+					],
+					"specialization": "burning or corrosion",
+					"amount": 2
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000000,
+				"extended_weight": "225 lb"
+			}
+		},
+		{
+			"id": "ejQeoiHLqWVsJk_Xq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eVofSxhaglMBgokJ1"
+			},
+			"description": "Tactical Suit",
+			"reference": "B284",
+			"tech_level": "11",
+			"legality_class": "2",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 3000,
+			"weight": "15 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "nbc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck",
+						"skull",
+						"torso",
+						"vitals"
+					],
+					"amount": 40
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3000,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eLS4Npp5DVyNaEE-X",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "enjrZRvTaQ28CHoex"
+			},
+			"description": "Tactical Suit",
+			"reference": "B284",
+			"tech_level": "10",
+			"legality_class": "2",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 3000,
+			"weight": "15 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "nbc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck",
+						"skull",
+						"torso",
+						"vitals"
+					],
+					"amount": 30
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 3000,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "eFRny-31rkSGL24Zz",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "edvQK3KSel8oQg5ut"
+			},
+			"description": "Tactical Vest",
+			"reference": "B284",
+			"tech_level": "11",
+			"legality_class": "2",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 900,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin",
+						"torso",
+						"vitals"
+					],
+					"amount": 32
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "ekfvqM-VeDG4xJL0Z",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "emG7FkOiVCp0JTSiJ"
+			},
+			"description": "Tactical Vest",
+			"reference": "B284",
+			"tech_level": "10",
+			"legality_class": "2",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 900,
+			"weight": "9 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin",
+						"torso",
+						"vitals"
+					],
+					"amount": 24
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "9 lb"
+			}
+		},
+		{
+			"id": "eUiLBm0uVJEvLuGtC",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e7HYqIXnkoebZKcXM"
+			},
+			"description": "Vacc Suit",
+			"reference": "B285",
+			"notes": "Climate-controlled",
+			"tech_level": "10",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 10000,
+			"weight": "25 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "vacc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Diagnosis skill of others examining the wearer of the Vacc Suit",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck",
+						"torso",
+						"vitals"
+					],
+					"amount": 9
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "eHpzEN15LQhao8Bf-",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e2N--t7_gpL7BMQyg"
+			},
+			"description": "Vacc Suit",
+			"reference": "B285",
+			"notes": "Climate-controlled",
+			"tech_level": "9",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 10000,
+			"weight": "25 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "vacc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Diagnosis skill of others examining the wearer of the Vacc Suit",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck",
+						"torso",
+						"vitals"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "eP3LMbPxMjp0b2LuD",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "efy-g9aG-XU0v8yuU"
+			},
+			"description": "Vacc Suit",
+			"reference": "B285",
+			"notes": "Climate-controlled",
+			"tech_level": "11",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 10000,
+			"weight": "25 lb",
+			"prereqs": {
+				"type": "prereq_list",
+				"all": true,
+				"prereqs": [
+					{
+						"type": "skill_prereq",
+						"has": true,
+						"name": {
+							"compare": "is",
+							"qualifier": "vacc suit"
+						}
+					}
+				]
+			},
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Diagnosis skill of others examining the wearer of the Vacc Suit",
+					"amount": 1
+				},
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"arm",
+						"foot",
+						"groin",
+						"hand",
+						"leg",
+						"neck",
+						"torso",
+						"vitals"
+					],
+					"amount": 12
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 10000,
+				"extended_weight": "25 lb"
+			}
+		},
+		{
+			"id": "eQBtebDlHoN4jBdh0",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eV-N699_iDnK0t-ON"
+			},
+			"description": "Vacc Suit Helmet",
+			"reference": "B285",
+			"notes": "Gives HUD compatible with smartgun electronics, Filter Lungs, Protected Smell, Protected Hearing, Protected Vision, Infravision, Night Vision 9, Telescopic Vision 1, Absolute Direction (requires signal) and Radio; with full suit in place and sealed, also gives Doesn't Breathe (for 12 hours), Protected Smell, Sealed, and Vacuum Support",
+			"tech_level": "9",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 2000,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face",
+						"skull"
+					],
+					"amount": 6
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "ezHb-2yfaNhov8nTv",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eNIoj6xYsVguniWMZ"
+			},
+			"description": "Vacc Suit Helmet",
+			"reference": "B285",
+			"notes": "Gives HUD compatible with smartgun electronics, Filter Lungs, Protected Smell, Protected Hearing, Protected Vision, Infravision, Night Vision 9, Telescopic Vision 1, Absolute Direction (requires signal) and Radio; with full suit in place and sealed, also gives Doesn't Breathe (for 12 hours), Protected Smell, Sealed, and Vacuum Support",
+			"tech_level": "11",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 2000,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face",
+						"skull"
+					],
+					"amount": 12
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "5 lb"
+			}
+		},
+		{
+			"id": "eHlaCwBVeL3yzhFhI",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e2fdKVVh3ijhuWEgl"
+			},
+			"description": "Vacc Suit Helmet",
+			"reference": "B285",
+			"notes": "Gives HUD compatible with smartgun electronics, Filter Lungs, Protected Smell, Protected Hearing, Protected Vision, Infravision, Night Vision 9, Telescopic Vision 2, Absolute Direction (requires signal) and Radio; with full suit in place and sealed, also gives Doesn't Breathe (for 12 hours), Protected Smell, Sealed, and Vacuum Support",
+			"tech_level": "10",
+			"tags": [
+				"Environment Suits"
+			],
+			"value": 2000,
+			"weight": "5 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"eye",
+						"face",
+						"skull"
+					],
+					"amount": 9
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 2000,
+				"extended_weight": "5 lb"
+			}
+		}
+	]
+}
