@@ -1,0 +1,60 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "EndTRESgqAf3CRPsv",
+			"description": "Potions",
+			"legality_class": "4",
+			"quantity": 1,
+			"equipped": true,
+			"children": [
+				{
+					"id": "egeSf_l70_WIe8JdI",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Magic/Magic Equipment.eqp",
+						"id": "ent8q2lZqbUdrahUk"
+					},
+					"description": "Potion: Healing (Greater)",
+					"reference": "M217",
+					"notes": "Double the effects of regular healing potion",
+					"tags": [
+						"Potion"
+					],
+					"value": 300,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 300,
+						"extended_weight": "0.25 lb"
+					}
+				},
+				{
+					"id": "eeWtWKU3F5AbZ34Fz",
+					"source": {
+						"library": "richardwilkes/gcs_master_library",
+						"path": "Magic/Magic Equipment.eqp",
+						"id": "ent8q2lZqbUdrahUk"
+					},
+					"description": "Potion: Wall-Walking",
+					"reference": "M217",
+					"notes": "Grants Clinging advantage for 1d minutes.",
+					"tags": [
+						"Potion"
+					],
+					"value": 700,
+					"weight": "0.25 lb",
+					"quantity": 1,
+					"calc": {
+						"extended_value": 700,
+						"extended_weight": "0.25 lb"
+					}
+				}
+			],
+			"calc": {
+				"extended_value": 1000,
+				"extended_weight": "0.5 lb"
+			}
+		}
+	]
+}

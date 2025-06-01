@@ -138,6 +138,24 @@
 			}
 		},
 		{
+			"id": "ebWopuhR2-ZmxW0Uv",
+			"description": "Caltrop",
+			"reference": "LT123",
+			"tech_level": "2",
+			"legality_class": "3",
+			"tags": [
+				"Trap"
+			],
+			"value": 1,
+			"weight": "0.5 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 1,
+				"extended_weight": "0.5 lb"
+			}
+		},
+		{
 			"id": "ewn8e36j8rwMkmEP-",
 			"source": {
 				"library": "richardwilkes/gcs_master_library",
@@ -494,6 +512,138 @@
 			"calc": {
 				"extended_value": 100,
 				"extended_weight": "0 lb"
+			}
+		},
+		{
+			"id": "eByu8iHe_8u-WCR4M",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eoLUSbLbRk1A_9ICz"
+			},
+			"description": "Desert Clothes",
+			"reference": "B266",
+			"notes": "Status -2",
+			"tags": [
+				"Clothing"
+			],
+			"value": 30,
+			"weight": "4 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 30,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eUnb-gyzz-aIYFz5o",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "euZnx_ucuv2Z9j1tg"
+			},
+			"description": "Desert Clothes",
+			"reference": "B266",
+			"notes": "Status -1",
+			"tags": [
+				"Clothing"
+			],
+			"value": 90,
+			"weight": "4 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 90,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eLsKVbxghyxLxWzoL",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e24V1_w4hI1Y5_jks"
+			},
+			"description": "Desert Clothes",
+			"reference": "B266",
+			"notes": "Status 0",
+			"tags": [
+				"Clothing"
+			],
+			"value": 180,
+			"weight": "4 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 180,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "e6qcfbw4lBIJrSWgV",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "e_cSxP1TJ4hArvY2s"
+			},
+			"description": "Desert Clothes",
+			"reference": "B266",
+			"notes": "Status 1",
+			"tags": [
+				"Clothing"
+			],
+			"value": 360,
+			"weight": "4 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 360,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "eWuqt0fbrGryPUW2C",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eaqmPUV41qo_EAh4u"
+			},
+			"description": "Desert Clothes",
+			"reference": "B266",
+			"notes": "Status 2",
+			"tags": [
+				"Clothing"
+			],
+			"value": 900,
+			"weight": "4 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 900,
+				"extended_weight": "4 lb"
+			}
+		},
+		{
+			"id": "ewVIRcvCMWI66oNql",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eAu3A6PMF3U0OHUIL"
+			},
+			"description": "Desert Clothes",
+			"reference": "B266",
+			"notes": "Status 3",
+			"tags": [
+				"Clothing"
+			],
+			"value": 3600,
+			"weight": "4 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 3600,
+				"extended_weight": "4 lb"
 			}
 		},
 		{

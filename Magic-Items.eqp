@@ -48,6 +48,103 @@
 				"extended_value": 0,
 				"extended_weight": "0.05 lb"
 			}
+		},
+		{
+			"id": "eBgPytLrZ_QV75yRy",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eSkpxAVUFdjWZpCaA"
+			},
+			"description": "Spark Dagger",
+			"reference": "B272",
+			"notes": "Enchanted with Lightning Weapon",
+			"tech_level": "1",
+			"tags": [
+				"Melee Weapon",
+				"Missile Weapon"
+			],
+			"value": 20,
+			"weight": "0.25 lb",
+			"weapons": [
+				{
+					"id": "wWinfTniHjoG1glRR",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "5",
+					"usage": "Thrust",
+					"reach": "C",
+					"parry": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Knife"
+						},
+						{
+							"type": "skill",
+							"name": "Force Sword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Main-Gauche",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Shortsword",
+							"modifier": -3
+						},
+						{
+							"type": "skill",
+							"name": "Sword!"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 imp"
+					}
+				},
+				{
+					"id": "WDxJNC6UCXYJf_XXe",
+					"damage": {
+						"type": "imp",
+						"st": "thr",
+						"base": "-1"
+					},
+					"strength": "5",
+					"usage": "Thrown",
+					"range": "x0.5/x1",
+					"rate_of_fire": "1",
+					"shots": "T",
+					"bulk": "-1",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Thrown Weapon",
+							"specialization": "Knife"
+						}
+					],
+					"calc": {
+						"damage": "thr-1 imp"
+					}
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0.25 lb"
+			}
 		}
 	]
 }
