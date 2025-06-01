@@ -11,12 +11,12 @@
 			"description": "Resource: Silk",
 			"legality_class": "4",
 			"value": 100,
-			"weight": "10 lb",
+			"weight": "2 lb",
 			"quantity": 1,
 			"equipped": true,
 			"calc": {
 				"extended_value": 100,
-				"extended_weight": "10 lb"
+				"extended_weight": "2 lb"
 			}
 		}
 	]

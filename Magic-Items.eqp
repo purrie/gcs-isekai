@@ -15,10 +15,11 @@
 				"Missile Weapon",
 				"Magic Item"
 			],
+			"value": 40,
 			"weight": "0.05 lb",
 			"weapons": [
 				{
-					"id": "WvQu0yYKipEai9IGh",
+					"id": "WFn2Kja_snkcbgs6s",
 					"damage": {
 						"type": "burn ex",
 						"base": "2d"
@@ -45,7 +46,7 @@
 			],
 			"quantity": 1,
 			"calc": {
-				"extended_value": 0,
+				"extended_value": 40,
 				"extended_weight": "0.05 lb"
 			}
 		},
@@ -64,11 +65,11 @@
 				"Melee Weapon",
 				"Missile Weapon"
 			],
-			"value": 20,
+			"value": 33420,
 			"weight": "0.25 lb",
 			"weapons": [
 				{
-					"id": "wWinfTniHjoG1glRR",
+					"id": "wcSvUKzDpWdv8qtiC",
 					"damage": {
 						"type": "imp",
 						"st": "thr",
@@ -112,7 +113,7 @@
 					}
 				},
 				{
-					"id": "WDxJNC6UCXYJf_XXe",
+					"id": "W38hzTPkmGifIKWlR",
 					"damage": {
 						"type": "imp",
 						"st": "thr",
@@ -142,8 +143,108 @@
 			],
 			"quantity": 1,
 			"calc": {
-				"extended_value": 20,
+				"extended_value": 33420,
 				"extended_weight": "0.25 lb"
+			}
+		},
+		{
+			"id": "e1-bP1PrXj6udugKq",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eztv9mKxDmU8CHUmm"
+			},
+			"description": "Medium Shield +1",
+			"reference": "B287",
+			"notes": "DR 7, HP 40",
+			"tech_level": "1",
+			"tags": [
+				"Shield",
+				"Magic Item"
+			],
+			"value": 16560,
+			"weight": "15 lb",
+			"weapons": [
+				{
+					"id": "wvxZaw-5oK_4q4rPE",
+					"damage": {
+						"type": "cr",
+						"st": "thr"
+					},
+					"usage": "Shield Bash",
+					"reach": "1",
+					"block": "0",
+					"defaults": [
+						{
+							"type": "dx",
+							"modifier": -4
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"specialization": "Buckler"
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"specialization": "Force Shield"
+						},
+						{
+							"type": "skill",
+							"name": "Shield",
+							"specialization": "Shield"
+						}
+					],
+					"calc": {
+						"damage": "thr cr"
+					}
+				}
+			],
+			"features": [
+				{
+					"type": "conditional_modifier",
+					"situation": "to Dodge, Parry \u0026 Block against attacks from the front or shield side",
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 16560,
+				"extended_weight": "15 lb"
+			}
+		},
+		{
+			"id": "e1-Ue0kLqgv0kC4h7",
+			"source": {
+				"library": "richardwilkes/gcs_master_library",
+				"path": "Basic Set/Basic Set Equipment.eqp",
+				"id": "eE9YDq0au3FVMOGn_"
+			},
+			"description": "Barbarian Garb",
+			"reference": "B283",
+			"notes": "Flexible, concealable, Echanted with Fortify +2, Lighten 2.",
+			"tech_level": "0",
+			"tags": [
+				"Body Armor"
+			],
+			"value": 23125,
+			"weight": "1 lb",
+			"features": [
+				{
+					"type": "dr_bonus",
+					"locations": [
+						"groin",
+						"leg",
+						"torso",
+						"vitals"
+					],
+					"amount": 3
+				}
+			],
+			"quantity": 1,
+			"calc": {
+				"extended_value": 23125,
+				"extended_weight": "1 lb"
 			}
 		}
 	]
