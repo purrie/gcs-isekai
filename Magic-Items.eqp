@@ -12,21 +12,21 @@
 			"reference": "B276",
 			"tech_level": "0",
 			"tags": [
-				"AmmoType:Sling",
-				"Ammunition",
-				"Missile Weapon"
+				"Missile Weapon",
+				"Magic Item"
 			],
 			"weight": "0.05 lb",
 			"weapons": [
 				{
-					"id": "W-lLGTMGRhQjHGuQn",
+					"id": "WvQu0yYKipEai9IGh",
 					"damage": {
-						"type": "burn",
+						"type": "burn ex",
 						"base": "2d"
 					},
 					"strength": "5",
+					"usage_notes": "explodes on impact",
 					"accuracy": "1",
-					"range": "x0.5/x1",
+					"range": "x1",
 					"rate_of_fire": "1",
 					"defaults": [
 						{
@@ -39,7 +39,7 @@
 						}
 					],
 					"calc": {
-						"damage": "2d burn"
+						"damage": "2d burn ex"
 					}
 				}
 			],
