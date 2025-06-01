@@ -1,0 +1,23 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "e2uCUTDcM1DjYUFHF",
+			"source": {
+				"library": "/gcs_user_library",
+				"path": "isekai/Equipment-Common.eqp",
+				"id": "ewESyhNDDaE24O3rw"
+			},
+			"description": "Resource: Silk",
+			"legality_class": "4",
+			"value": 100,
+			"weight": "10 lb",
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 100,
+				"extended_weight": "10 lb"
+			}
+		}
+	]
+}
