@@ -1,0 +1,21 @@
+{
+	"version": 5,
+	"rows": [
+		{
+			"id": "eWqhYqHwV9fezrkiy",
+			"description": "Green Slime Extract",
+			"notes": "Contact Agent, 4s delay, Resist HT-4, Incapacitating Condition: Paralysis, effect 10s per failure margin.",
+			"legality_class": "2",
+			"tags": [
+				"Poison"
+			],
+			"value": 20,
+			"quantity": 1,
+			"equipped": true,
+			"calc": {
+				"extended_value": 20,
+				"extended_weight": "0 lb"
+			}
+		}
+	]
+}
